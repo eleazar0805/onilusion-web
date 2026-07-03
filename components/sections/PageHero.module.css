@@ -1,0 +1,32 @@
+.hero {
+  background:
+    radial-gradient(ellipse 70% 80% at 80% 0%, rgba(20, 101, 224, 0.16), transparent 60%),
+    var(--midnight);
+  border-bottom: 1px solid var(--borde-oscuro);
+  padding-block: 72px 64px;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: var(--blanco);
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  max-width: 800px;
+  animation: fadeInUp 0.6s ease;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: var(--text-lg);
+  color: var(--gris-neutro);
+  line-height: 1.7;
+  max-width: 640px;
+  animation: fadeInUp 0.6s ease 0.1s backwards;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-block: 48px 44px;
+  }
+}

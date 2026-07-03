@@ -1,0 +1,159 @@
+.hero {
+  position: relative;
+  background:
+    radial-gradient(ellipse 80% 60% at 70% 10%, rgba(20, 101, 224, 0.18), transparent 60%),
+    var(--midnight);
+  padding-block: 88px 96px;
+  overflow: hidden;
+}
+
+.glow {
+  position: absolute;
+  top: -200px;
+  right: -160px;
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle, rgba(53, 196, 228, 0.14), transparent 65%);
+  pointer-events: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.badge {
+  margin-bottom: 24px;
+  opacity: 0;
+}
+
+.title {
+  font-size: clamp(2.2rem, 4.6vw, 3.6rem);
+  font-weight: 800;
+  color: var(--blanco);
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  margin-bottom: 24px;
+  opacity: 0;
+}
+
+.titleAccent {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: var(--text-lg);
+  color: var(--plata);
+  line-height: 1.7;
+  max-width: 540px;
+  margin-bottom: 36px;
+  opacity: 0;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+.trustList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  opacity: 0;
+}
+
+.trustItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--text-sm);
+  color: var(--plata);
+}
+
+.trustCheck {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(53, 196, 228, 0.14);
+  color: var(--lavanda);
+  flex-shrink: 0;
+}
+
+/* ── Vídeo ── */
+.media {
+  position: relative;
+  opacity: 0;
+}
+
+.videoFrame {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid rgba(53, 196, 228, 0.25);
+  box-shadow: 0 24px 80px rgba(4, 10, 30, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  background: linear-gradient(135deg, var(--deep-navy), var(--surface-2));
+  transition: transform var(--t-slow), box-shadow var(--t-slow);
+}
+
+.videoFrame:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 32px 96px rgba(4, 10, 30, 0.8), 0 0 48px rgba(20, 101, 224, 0.25);
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+}
+
+.videoGlow {
+  position: absolute;
+  inset: 10% -8% -10% -8%;
+  background: radial-gradient(ellipse at center, rgba(20, 101, 224, 0.22), transparent 65%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .media {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-block: 56px 64px;
+  }
+
+  .ctas {
+    width: 100%;
+  }
+
+  .ctas :global(.btn) {
+    flex: 1;
+    min-width: 200px;
+  }
+}

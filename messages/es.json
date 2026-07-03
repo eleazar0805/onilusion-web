@@ -1,0 +1,551 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Sobre nosotros",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "cta": "Solicitar asesoramiento"
+  },
+  "hero": {
+    "badge": "Desde 2001 · Madrid · España",
+    "h1_part1": "Soluciones tecnológicas",
+    "h1_part2": "seguras, cercanas y adaptadas",
+    "h1_part3": "a tu empresa",
+    "subtitle": "Ayudamos a pymes y empresas de toda España a proteger, mantener y evolucionar su tecnología con servicios IT, ciberseguridad, cloud, desarrollo e infraestructura personalizada.",
+    "trust1": "Sede en Madrid · Cobertura nacional",
+    "trust2": "Más de dos décadas de experiencia",
+    "trust3": "Soluciones adaptadas a cada cliente",
+    "cta_primary": "Solicitar asesoramiento",
+    "cta_secondary": "Ver servicios"
+  },
+  "trust": {
+    "years_label": "Años de experiencia",
+    "years_value": "+20",
+    "clients_label": "Clientes",
+    "clients_value": "+500",
+    "projects_label": "Proyectos",
+    "projects_value": "+1.000",
+    "coverage_label": "Cobertura",
+    "coverage_value": "España"
+  },
+  "services": {
+    "title": "Tecnología adaptada a la realidad de tu empresa",
+    "subtitle": "Un solo socio tecnológico para todas tus necesidades IT",
+    "items": [
+      {
+        "id": "ciberseguridad",
+        "icon": "🔐",
+        "title": "Ciberseguridad",
+        "desc": "Auditorías, protección de redes, sistemas y datos. Estrategia preventiva frente a amenazas y ransomware.",
+        "problem": "¿Tu empresa está realmente protegida?"
+      },
+      {
+        "id": "mantenimiento",
+        "icon": "🖥",
+        "title": "Mantenimiento informático",
+        "desc": "Soporte remoto y presencial, mantenimiento preventivo y correctivo, gestión de incidencias y monitorización.",
+        "problem": "¿Tienes soporte cuando lo necesitas?"
+      },
+      {
+        "id": "consultoria",
+        "icon": "💡",
+        "title": "Consultoría IT",
+        "desc": "Asesoramiento tecnológico, planificación IT, auditorías y externalización del departamento informático.",
+        "problem": "¿Tu tecnología trabaja para ti?"
+      },
+      {
+        "id": "infraestructura",
+        "icon": "🏗",
+        "title": "Infraestructura tecnológica",
+        "desc": "Servidores, redes empresariales, equipos informáticos, firewalls y virtualización.",
+        "problem": "¿Tu infraestructura está preparada?"
+      },
+      {
+        "id": "cloud",
+        "icon": "☁",
+        "title": "Cloud y software empresarial",
+        "desc": "Migración a la nube, ERP online, software de gestión e implantación de soluciones digitales.",
+        "problem": "¿Aprovechas el potencial del cloud?"
+      },
+      {
+        "id": "desarrollo",
+        "icon": "💻",
+        "title": "Desarrollo web y software",
+        "desc": "Software a medida, desarrollo web, APIs, integraciones y automatización de procesos.",
+        "problem": "¿Tu software frena tu crecimiento?"
+      },
+      {
+        "id": "telecom",
+        "icon": "📡",
+        "title": "Telecomunicaciones",
+        "desc": "Telefonía IP, routers, repetidores WiFi, antenas y electrónica de red para empresas.",
+        "problem": "¿Tu conectividad es profesional?"
+      },
+      {
+        "id": "redes",
+        "icon": "🌐",
+        "title": "Redes empresariales",
+        "desc": "Diseño, instalación y mantenimiento de redes corporativas seguras y escalables.",
+        "problem": "¿Tu red soporta tu negocio?"
+      }
+    ],
+    "cta": "Ver más →"
+  },
+  "howwework": {
+    "title": "Un método cercano, claro y personalizado",
+    "subtitle": "Trabajamos como si la solución fuera para nuestra propia empresa",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Escuchamos",
+        "desc": "Entendemos tu situación, tus procesos y tus objetivos reales antes de proponer nada."
+      },
+      {
+        "num": "02",
+        "title": "Analizamos",
+        "desc": "Revisamos tu infraestructura, tus sistemas y tus necesidades con criterio técnico."
+      },
+      {
+        "num": "03",
+        "title": "Diseñamos",
+        "desc": "Creamos una solución personalizada, sin paquetes cerrados, adaptada a tu empresa."
+      },
+      {
+        "num": "04",
+        "title": "Implantamos",
+        "desc": "Ejecutamos con precisión, con el mínimo impacto en tu operativa diaria."
+      },
+      {
+        "num": "05",
+        "title": "Acompañamos",
+        "desc": "No desaparecemos. Mantenemos, mejoramos y estamos cuando nos necesitas."
+      }
+    ]
+  },
+  "sectors": {
+    "title": "Soluciones para empresas de todos los sectores",
+    "subtitle": "Cada sector tiene retos tecnológicos diferentes. Por eso adaptamos cada solución al funcionamiento real de cada negocio.",
+    "items": [
+      "Centros educativos",
+      "Despachos de abogados",
+      "Agencias",
+      "Restaurantes y hostelería",
+      "Hoteles",
+      "Comercios",
+      "Empresas de servicios",
+      "Pymes"
+    ]
+  },
+  "cyber": {
+    "eyebrow": "Ciberseguridad",
+    "title": "La seguridad no es una reacción. Es una estrategia.",
+    "subtitle": "En Onilusion integramos la seguridad desde el diseño de cada solución, no como un añadido posterior.",
+    "items": [
+      {
+        "icon": "🛡",
+        "title": "Auditorías de seguridad",
+        "desc": "Analizamos vulnerabilidades y puntos de riesgo en tus sistemas."
+      },
+      {
+        "icon": "🔒",
+        "title": "Protección de datos",
+        "desc": "Cumplimiento RGPD, cifrado y políticas de acceso seguro."
+      },
+      {
+        "icon": "🌐",
+        "title": "Redes seguras",
+        "desc": "Firewalls, segmentación de red y comunicaciones cifradas."
+      },
+      {
+        "icon": "🚨",
+        "title": "Prevención de amenazas",
+        "desc": "Estrategia proactiva frente a ransomware y ciberataques."
+      }
+    ],
+    "cta": "Conoce nuestros servicios de ciberseguridad"
+  },
+  "partners": {
+    "title": "Trabajamos con tecnología líder del sector",
+    "subtitle": "Utilizamos soluciones de fabricantes contrastados para ofrecer infraestructuras fiables, seguras y preparadas para crecer.",
+    "brands": [
+      "Dell",
+      "Cisco",
+      "HP",
+      "Microsoft",
+      "Fortinet",
+      "VMware",
+      "Synology"
+    ]
+  },
+  "about": {
+    "eyebrow": "Sobre Onilusion",
+    "title": "Más de dos décadas siendo el socio tecnológico de empresas españolas",
+    "subtitle": "Fundada en 2001 en Madrid, Onilusion es una empresa tecnológica con alma familiar y alto nivel profesional. Cuidamos tanto de nuestros clientes como de nuestro equipo.",
+    "values": [
+      {
+        "icon": "🤝",
+        "title": "Cercanía",
+        "desc": "Hablamos tu idioma, no solo el de la tecnología."
+      },
+      {
+        "icon": "🎯",
+        "title": "Personalización",
+        "desc": "Cada empresa es diferente. Cada solución, también."
+      },
+      {
+        "icon": "🔐",
+        "title": "Seguridad",
+        "desc": "Tecnología segura desde el primer día."
+      },
+      {
+        "icon": "⭐",
+        "title": "Calidad",
+        "desc": "Trabajamos como si fuera para nuestra propia empresa."
+      }
+    ],
+    "cta_history": "Conoce nuestra historia",
+    "cta_contact": "Habla con nuestro equipo"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Resolvemos las dudas más habituales. Si no encuentras lo que buscas, escríbenos.",
+    "items": [
+      {
+        "q": "¿Trabajáis solo en Madrid o en toda España?",
+        "a": "Nuestra sede está en Madrid, donde ofrecemos servicio presencial y remoto. Para el resto de España trabajamos en modalidad remota con la misma calidad y respuesta que en Madrid."
+      },
+      {
+        "q": "¿Ofrecéis soporte presencial y remoto?",
+        "a": "Sí. Adaptamos la modalidad a cada cliente: acceso remoto para incidencias habituales y presencial cuando la situación lo requiere."
+      },
+      {
+        "q": "¿Trabajáis con pymes pequeñas?",
+        "a": "Sí. Las pymes son nuestros clientes principales. No hay empresa demasiado pequeña si tiene necesidades tecnológicas reales."
+      },
+      {
+        "q": "¿Podéis actuar como departamento informático externo?",
+        "a": "Sí. Muchas empresas con las que trabajamos no tienen departamento IT propio. Asumimos esa función de forma completa o parcial según lo que necesite cada organización."
+      },
+      {
+        "q": "¿Realizáis auditorías de ciberseguridad?",
+        "a": "Sí. Analizamos la situación de seguridad de la empresa, identificamos vulnerabilidades y proponemos medidas correctivas y preventivas adaptadas a cada caso."
+      },
+      {
+        "q": "¿Instaláis routers, repetidores WiFi y redes empresariales?",
+        "a": "Sí. Diseñamos, instalamos y mantenemos infraestructuras de red profesionales, incluyendo WiFi, cableado, electrónica de red y telecomunicaciones."
+      },
+      {
+        "q": "¿Ofrecéis mantenimiento informático continuo?",
+        "a": "Sí. Contamos con servicios de mantenimiento preventivo y correctivo, monitorización y gestión de incidencias para que tu empresa siempre esté operativa."
+      },
+      {
+        "q": "¿Desarrolláis software a medida?",
+        "a": "Sí. Desarrollamos software, aplicaciones y soluciones digitales adaptadas a los procesos reales de cada empresa, incluyendo APIs e integraciones."
+      },
+      {
+        "q": "¿Podéis mejorar una web antigua?",
+        "a": "Sí. Rediseñamos, optimizamos o reconstruimos webs corporativas con enfoque en rendimiento, seguridad, SEO y experiencia de usuario."
+      },
+      {
+        "q": "¿Trabajáis con hoteles, restaurantes, escuelas y despachos?",
+        "a": "Sí. Tenemos experiencia en múltiples sectores: hostelería, educación, despachos profesionales, agencias, comercios y empresas de servicios."
+      },
+      {
+        "q": "¿Qué diferencia a Onilusion de otras empresas informáticas?",
+        "a": "La personalización real. No vendemos paquetes cerrados. Escuchamos, analizamos y diseñamos soluciones específicas para cada cliente. Llevamos más de dos décadas haciéndolo."
+      },
+      {
+        "q": "¿Cómo se solicita presupuesto?",
+        "a": "Puedes contactarnos por formulario, email o teléfono. Nos contarás tu situación, lo analizamos y te presentamos una propuesta adaptada a tus necesidades y presupuesto."
+      }
+    ],
+    "cta": "¿Tienes otra pregunta? Contáctanos"
+  },
+  "cta_final": {
+    "title": "¿Listo para mejorar la tecnología de tu empresa?",
+    "subtitle": "Cuéntanos tu situación y te orientamos sin compromiso.",
+    "cta_primary": "Solicitar asesoramiento",
+    "cta_secondary": "Llamar ahora"
+  },
+  "contact": {
+    "title": "Hablemos de cómo mejorar la tecnología de tu empresa",
+    "subtitle": "Cuéntanos tu situación. Te orientamos sin compromiso.",
+    "address_label": "Dirección",
+    "address": "Calle Doctor Esquerdo, 105\n28007 Madrid, España",
+    "phone_label": "Teléfono",
+    "phone": "914 009 634",
+    "email_label": "Email",
+    "email": "info@onilusion.com",
+    "coverage_label": "Cobertura",
+    "coverage": "Madrid y toda España",
+    "form": {
+      "name": "Nombre y apellidos",
+      "company": "Empresa",
+      "email": "Email",
+      "phone": "Teléfono",
+      "service": "Tipo de servicio",
+      "message": "Cuéntanos qué necesitas",
+      "privacy": "He leído y acepto la",
+      "privacy_link": "política de privacidad",
+      "submit": "Enviar solicitud",
+      "sending": "Enviando...",
+      "success_title": "¡Mensaje enviado!",
+      "success_desc": "Nos pondremos en contacto contigo en la mayor brevedad posible.",
+      "error": "Ha ocurrido un error. Por favor, inténtalo de nuevo o escríbenos directamente a info@onilusion.com",
+      "services": [
+        "Ciberseguridad",
+        "Mantenimiento informático",
+        "Consultoría IT",
+        "Desarrollo web / Software",
+        "Infraestructura / Redes",
+        "Telecomunicaciones",
+        "Cloud / Software empresarial",
+        "Otro"
+      ]
+    }
+  },
+  "footer": {
+    "description": "Empresa tecnológica madrileña fundada en 2001. Soluciones IT cercanas, seguras y personalizadas para pymes y empresas de toda España.",
+    "services_title": "Servicios",
+    "company_title": "Empresa",
+    "legal_title": "Legal",
+    "contact_title": "Contacto",
+    "links": {
+      "services": "Servicios",
+      "cybersecurity": "Ciberseguridad",
+      "maintenance": "Mantenimiento IT",
+      "consulting": "Consultoría",
+      "development": "Desarrollo",
+      "about": "Sobre nosotros",
+      "faq": "FAQ",
+      "contact": "Contacto",
+      "legal": "Aviso legal",
+      "privacy": "Política de privacidad",
+      "cookies": "Política de cookies"
+    },
+    "copyright": "© 2026 Onilusion S.A. Todos los derechos reservados.",
+    "cif": "CIF: A82874603"
+  },
+  "cookies": {
+    "title": "Utilizamos cookies",
+    "desc": "Usamos cookies propias y de terceros para mejorar tu experiencia, analizar el tráfico y personalizar el contenido. Puedes aceptarlas, rechazarlas o configurar tus preferencias.",
+    "accept": "Aceptar todas",
+    "reject": "Rechazar no esenciales",
+    "configure": "Configurar",
+    "privacy_link": "Política de cookies"
+  },
+  "pages": {
+    "services": {
+      "title": "Servicios tecnológicos integrales para pymes y empresas",
+      "subtitle": "Desde consultoría hasta desarrollo, ciberseguridad e infraestructura: todo en un solo socio tecnológico.",
+      "cta": "¿No ves lo que necesitas? Cuéntanos tu caso",
+      "categories": [
+        {
+          "id": "consultoria",
+          "title": "Consultoría informática y tecnológica",
+          "desc": "Analizamos tu situación tecnológica y te orientamos hacia las decisiones correctas para tu empresa.",
+          "items": [
+            "Consultoría informática",
+            "Asesoramiento tecnológico",
+            "Auditoría informática",
+            "Planificación IT",
+            "Optimización de sistemas",
+            "Externalización del departamento informático",
+            "Acompañamiento tecnológico continuo"
+          ]
+        },
+        {
+          "id": "ciberseguridad",
+          "title": "Ciberseguridad",
+          "desc": "Protegemos tu empresa frente a amenazas actuales con una estrategia preventiva y proactiva.",
+          "items": [
+            "Auditorías de seguridad",
+            "Protección de sistemas",
+            "Protección de datos (RGPD)",
+            "Protección de redes corporativas",
+            "Prevención frente a ransomware",
+            "Revisión de vulnerabilidades",
+            "Comunicaciones seguras"
+          ]
+        },
+        {
+          "id": "mantenimiento",
+          "title": "Servicios IT y mantenimiento informático",
+          "desc": "Tu infraestructura siempre operativa con soporte rápido, preventivo y correctivo.",
+          "items": [
+            "Mantenimiento preventivo y correctivo",
+            "Soporte remoto",
+            "Soporte presencial en Madrid",
+            "Gestión de incidencias",
+            "Monitorización de sistemas",
+            "Actualización y optimización de equipos"
+          ]
+        },
+        {
+          "id": "infraestructura",
+          "title": "Infraestructura tecnológica",
+          "desc": "Diseñamos e implantamos infraestructuras robustas adaptadas al tamaño y necesidades de tu empresa.",
+          "items": [
+            "Instalación y gestión de servidores",
+            "Redes empresariales",
+            "Equipos informáticos (portátiles, sobremesa, TPV)",
+            "Firewalls y seguridad perimetral",
+            "NAS y almacenamiento",
+            "Virtualización"
+          ]
+        },
+        {
+          "id": "telecom",
+          "title": "Telecomunicaciones y conectividad",
+          "desc": "Conectividad profesional y estable para que tu empresa nunca pierda comunicación.",
+          "items": [
+            "Telefonía IP",
+            "Routers y electrónica de red",
+            "Repetidores y redes WiFi profesionales",
+            "Antenas",
+            "Comunicaciones corporativas"
+          ]
+        },
+        {
+          "id": "cloud",
+          "title": "Cloud y software empresarial",
+          "desc": "Aprovecha el potencial del cloud con soluciones adaptadas a tu negocio.",
+          "items": [
+            "Migración a la nube",
+            "ERP online",
+            "Software de gestión empresarial",
+            "Implantación de soluciones digitales",
+            "Optimización de procesos"
+          ]
+        },
+        {
+          "id": "desarrollo",
+          "title": "Desarrollo y digitalización",
+          "desc": "Software, webs e integraciones diseñadas a medida para los procesos reales de tu empresa.",
+          "items": [
+            "Desarrollo de software a medida",
+            "Desarrollo web corporativo",
+            "Diseño web",
+            "APIs e integraciones",
+            "Automatización de procesos",
+            "Aplicaciones digitales"
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "Más de dos décadas siendo el socio tecnológico de empresas españolas",
+      "subtitle": "Empresa familiar. Alta exigencia técnica. Trato cercano. Personalización real.",
+      "mission_title": "Nuestra misión",
+      "mission_text": "Creemos que la tecnología debe estar al servicio de las personas y de las empresas. Nuestra misión es ofrecer soluciones tecnológicas personalizadas, cercanas y profesionales, adaptadas a las necesidades reales de cada cliente. Trabajamos en un entorno familiar donde cuidamos tanto de nuestros clientes como de nuestro equipo. Cada servicio lo diseñamos como si fuera para nuestra propia empresa: con cercanía, responsabilidad, máxima calidad y profesionalidad.",
+      "diff_title": "Lo que nos diferencia",
+      "diff_text": "No vendemos soluciones estándar. Cada cliente es diferente. Cada empresa tiene necesidades, procesos, problemas y objetivos distintos. Onilusion analiza cada caso y crea soluciones adaptadas a cada cliente. No somos simplemente un proveedor informático: somos un socio tecnológico cercano, profesional y comprometido.",
+      "values_title": "Nuestros valores",
+      "founded": "Fundada en 2001",
+      "location": "Sede en Madrid",
+      "coverage": "Cobertura nacional"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre nuestros servicios tecnológicos",
+      "subtitle": "Resolvemos las dudas más habituales sobre cómo trabajamos, qué servicios ofrecemos y cómo podemos ayudarte."
+    },
+    "legal": {
+      "title": "Aviso Legal",
+      "company": "Datos de la empresa",
+      "name_label": "Razón social",
+      "name": "Onilusion S.A.",
+      "cif_label": "CIF",
+      "cif": "A82874603",
+      "address_label": "Domicilio social",
+      "address": "Calle Doctor Esquerdo, 105, 28007 Madrid, España",
+      "activity_label": "Objeto social",
+      "activity": "La prestación de servicios de consultoría, asesoramiento y publicidad en informática, electrónica y telecomunicaciones, así como la investigación y desarrollo de aplicaciones y sistemas informáticos.",
+      "email_label": "Email",
+      "email": "info@onilusion.com",
+      "phone_label": "Teléfono",
+      "phone": "914 009 634",
+      "sections": [
+        {
+          "h": "Condiciones de uso",
+          "p": "El acceso y uso de este sitio web atribuye la condición de usuario e implica la aceptación de las presentes condiciones. El usuario se compromete a hacer un uso adecuado de los contenidos y a no emplearlos para actividades ilícitas o contrarias a la buena fe."
+        },
+        {
+          "h": "Propiedad intelectual e industrial",
+          "p": "Los contenidos de este sitio web (textos, imágenes, logotipos, diseño y código) son titularidad de Onilusion S.A. o de terceros que han autorizado su uso, y están protegidos por la normativa de propiedad intelectual e industrial. Queda prohibida su reproducción sin autorización expresa."
+        },
+        {
+          "h": "Responsabilidad",
+          "p": "Onilusion S.A. no se hace responsable de los daños derivados del uso incorrecto de este sitio web ni de los contenidos de sitios de terceros enlazados desde el mismo. Trabajamos por mantener la información actualizada y precisa, sin garantizar la ausencia total de errores."
+        },
+        {
+          "h": "Legislación aplicable",
+          "p": "Las presentes condiciones se rigen por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales de Madrid, salvo que la normativa aplicable disponga otra cosa."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "subtitle": "Información sobre el tratamiento de tus datos personales",
+      "sections": [
+        {
+          "h": "Responsable del tratamiento",
+          "p": "Onilusion S.A., CIF A82874603, con domicilio en Calle Doctor Esquerdo, 105, 28007 Madrid (España). Email: info@onilusion.com. Teléfono: 914 009 634."
+        },
+        {
+          "h": "Finalidad del tratamiento",
+          "p": "Los datos facilitados a través del formulario de contacto se tratan para atender tu consulta o solicitud de presupuesto y gestionar la relación comercial que, en su caso, se derive. No se toman decisiones automatizadas ni se elaboran perfiles."
+        },
+        {
+          "h": "Legitimación",
+          "p": "La base jurídica del tratamiento es el consentimiento del interesado (art. 6.1.a RGPD), otorgado al marcar la casilla de aceptación del formulario, y el interés legítimo en responder a las consultas recibidas."
+        },
+        {
+          "h": "Conservación de los datos",
+          "p": "Los datos se conservarán durante el tiempo necesario para atender tu solicitud y, posteriormente, durante los plazos legalmente exigibles."
+        },
+        {
+          "h": "Destinatarios",
+          "p": "No se ceden datos a terceros salvo obligación legal. No se realizan transferencias internacionales de datos."
+        },
+        {
+          "h": "Derechos",
+          "p": "Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a info@onilusion.com, acreditando tu identidad. También puedes presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es)."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "subtitle": "Información sobre las cookies que utilizamos",
+      "sections": [
+        {
+          "h": "¿Qué son las cookies?",
+          "p": "Las cookies son pequeños archivos que se almacenan en tu dispositivo al visitar un sitio web y que permiten recordar información sobre tu visita, como el idioma o tus preferencias."
+        },
+        {
+          "h": "Cookies que utilizamos",
+          "p": "Este sitio utiliza únicamente cookies y almacenamiento técnico necesarios para su funcionamiento: la preferencia de idioma y el registro de tu decisión sobre el uso de cookies. No utilizamos cookies publicitarias. Si en el futuro se incorporan cookies analíticas, solo se activarán con tu consentimiento previo."
+        },
+        {
+          "h": "Cómo gestionar las cookies",
+          "p": "Puedes aceptar o rechazar las cookies no esenciales desde el banner de configuración. Además, puedes eliminar o bloquear las cookies desde la configuración de tu navegador en cualquier momento."
+        },
+        {
+          "h": "Actualizaciones",
+          "p": "Esta política puede actualizarse para reflejar cambios normativos o técnicos. Te recomendamos revisarla periódicamente."
+        }
+      ]
+    }
+  },
+  "meta": {
+    "home_title": "Empresa IT Madrid — Soluciones tecnológicas para pymes | Onilusion S.A.",
+    "home_desc": "Empresa informática en Madrid con más de 20 años de experiencia. Servicios IT, ciberseguridad, mantenimiento, infraestructura, cloud y desarrollo para pymes y empresas de toda España.",
+    "services_title": "Servicios tecnológicos para pymes y empresas en Madrid | Onilusion S.A.",
+    "services_desc": "Consultoría IT, ciberseguridad, mantenimiento informático, infraestructura, telecomunicaciones, cloud y desarrollo de software para empresas en Madrid y toda España.",
+    "about_title": "Sobre Onilusion — Empresa IT en Madrid desde 2001 | Onilusion S.A.",
+    "about_desc": "Conoce Onilusion S.A., empresa tecnológica madrileña fundada en 2001. Más de 500 clientes, más de 1.000 proyectos y más de dos décadas de experiencia en servicios IT.",
+    "contact_title": "Contacto — Solicita asesoramiento tecnológico | Onilusion S.A.",
+    "contact_desc": "Contacta con Onilusion S.A. en Madrid. Solicita asesoramiento IT sin compromiso. Teléfono: 914 009 634. Email: info@onilusion.com.",
+    "faq_title": "Preguntas frecuentes sobre servicios informáticos | Onilusion S.A.",
+    "faq_desc": "Respuestas a las dudas más frecuentes sobre mantenimiento IT, ciberseguridad, desarrollo de software e infraestructura tecnológica para pymes."
+  }
+}

@@ -1,0 +1,93 @@
+.about {
+  background: var(--midnight);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: var(--text-lg);
+  color: var(--gris-neutro);
+  line-height: 1.75;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.values > :nth-child(even) {
+  transform: translateY(20px);
+}
+
+.valueCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.valueIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: rgba(20, 101, 224, 0.12);
+  color: var(--lavanda);
+  transition: transform var(--t-normal), background var(--t-normal);
+}
+
+.valueCard:hover .valueIcon {
+  transform: scale(1.1);
+  background: rgba(53, 196, 228, 0.16);
+}
+
+.valueTitle {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--blanco-calido);
+}
+
+.valueDesc {
+  font-size: var(--text-sm);
+  color: var(--gris-neutro);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .values > :nth-child(even) {
+    transform: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .values {
+    grid-template-columns: 1fr;
+  }
+}

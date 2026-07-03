@@ -1,0 +1,50 @@
+.partners {
+  background: var(--deep-navy);
+  border-block: 1px solid var(--borde-oscuro);
+  padding-block: 72px;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 20px;
+}
+
+.logoItem {
+  padding: 18px 34px;
+  border: 1px solid var(--borde-oscuro);
+  border-radius: var(--radius-md);
+  background: rgba(16, 30, 60, 0.4);
+  transition: transform var(--t-normal), border-color var(--t-normal);
+}
+
+.logoItem:hover {
+  transform: translateY(-3px);
+  border-color: rgba(53, 196, 228, 0.4);
+}
+
+.logoItem:hover .logoText {
+  color: var(--blanco);
+  opacity: 1;
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--gris-neutro);
+  opacity: 0.75;
+  transition: color var(--t-normal), opacity var(--t-normal);
+}
+
+@media (max-width: 640px) {
+  .logoItem {
+    padding: 14px 24px;
+  }
+
+  .logoText {
+    font-size: var(--text-lg);
+  }
+}

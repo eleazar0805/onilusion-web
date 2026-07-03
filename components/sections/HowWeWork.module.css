@@ -1,0 +1,75 @@
+.how {
+  background: var(--midnight);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  counter-reset: step;
+}
+
+.stepWrap {
+  height: 100%;
+}
+
+.step {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 20px;
+  border: 1px solid var(--borde-oscuro);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(16, 30, 60, 0.6), rgba(6, 13, 31, 0.4));
+  transition: transform var(--t-normal), border-color var(--t-normal);
+}
+
+.step:hover {
+  transform: translateY(-4px);
+  border-color: rgba(53, 196, 228, 0.4);
+}
+
+.step:hover .num {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.num {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  color: var(--surface-2);
+  transition: color var(--t-normal);
+}
+
+.stepTitle {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--blanco-calido);
+}
+
+.stepDesc {
+  font-size: var(--text-xs);
+  color: var(--gris-neutro);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .steps > :last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}

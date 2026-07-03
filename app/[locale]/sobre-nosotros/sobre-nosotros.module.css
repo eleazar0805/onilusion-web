@@ -1,0 +1,128 @@
+.body {
+  background: var(--midnight);
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.facts :global(.badge) {
+  gap: 8px;
+  padding: 10px 18px;
+  color: var(--plata);
+}
+
+.facts :global(.badge svg) {
+  color: var(--lavanda);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.block {
+  padding: 36px 32px;
+  background: var(--surface);
+  border: 1px solid var(--borde-oscuro);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--t-normal), transform var(--t-normal);
+}
+
+.block:hover {
+  border-color: rgba(53, 196, 228, 0.35);
+  transform: translateY(-3px);
+}
+
+.blockTitle {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--blanco-calido);
+  margin-bottom: 16px;
+}
+
+.blockText {
+  font-size: var(--text-base);
+  color: var(--gris-neutro);
+  line-height: 1.8;
+}
+
+.valuesHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.values > * {
+  height: 100%;
+}
+
+.valueCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.valueIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: rgba(20, 101, 224, 0.12);
+  color: var(--lavanda);
+  transition: transform var(--t-normal), background var(--t-normal);
+}
+
+.valueCard:hover .valueIcon {
+  transform: scale(1.1);
+  background: rgba(53, 196, 228, 0.16);
+}
+
+.valueTitle {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--blanco-calido);
+}
+
+.valueDesc {
+  font-size: var(--text-sm);
+  color: var(--gris-neutro);
+  line-height: 1.6;
+}
+
+.footerCta {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+@media (max-width: 1024px) {
+  .values {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .values {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Request Consultation"
+  },
+  "hero": {
+    "badge": "Since 2001 · Madrid · Spain",
+    "h1_part1": "Secure, close and tailored",
+    "h1_part2": "technology solutions",
+    "h1_part3": "for your business",
+    "subtitle": "We help SMEs and companies across Spain protect, maintain and evolve their technology with IT services, cybersecurity, cloud, development and personalized infrastructure.",
+    "trust1": "Based in Madrid · National coverage",
+    "trust2": "Over two decades of experience",
+    "trust3": "Solutions tailored to each client",
+    "cta_primary": "Request Consultation",
+    "cta_secondary": "View Services"
+  },
+  "trust": {
+    "years_label": "Years of experience",
+    "years_value": "+20",
+    "clients_label": "Clients",
+    "clients_value": "+500",
+    "projects_label": "Projects",
+    "projects_value": "+1,000",
+    "coverage_label": "Coverage",
+    "coverage_value": "Spain"
+  },
+  "services": {
+    "title": "Technology adapted to your business reality",
+    "subtitle": "A single technology partner for all your IT needs",
+    "items": [
+      {
+        "id": "ciberseguridad",
+        "icon": "🔐",
+        "title": "Cybersecurity",
+        "desc": "Audits, protection of networks, systems and data. Preventive strategy against threats and ransomware.",
+        "problem": "Is your company really protected?"
+      },
+      {
+        "id": "mantenimiento",
+        "icon": "🖥",
+        "title": "IT Maintenance",
+        "desc": "Remote and on-site support, preventive and corrective maintenance, incident management and monitoring.",
+        "problem": "Do you have support when you need it?"
+      },
+      {
+        "id": "consultoria",
+        "icon": "💡",
+        "title": "IT Consulting",
+        "desc": "Technology advisory, IT planning, audits and outsourcing of the IT department.",
+        "problem": "Does your technology work for you?"
+      },
+      {
+        "id": "infraestructura",
+        "icon": "🏗",
+        "title": "Technology Infrastructure",
+        "desc": "Servers, business networks, computer equipment, firewalls and virtualization.",
+        "problem": "Is your infrastructure ready?"
+      },
+      {
+        "id": "cloud",
+        "icon": "☁",
+        "title": "Cloud & Business Software",
+        "desc": "Cloud migration, online ERP, management software and digital solution implementation.",
+        "problem": "Are you leveraging cloud potential?"
+      },
+      {
+        "id": "desarrollo",
+        "icon": "💻",
+        "title": "Web & Software Development",
+        "desc": "Custom software, web development, APIs, integrations and process automation.",
+        "problem": "Does your software limit your growth?"
+      },
+      {
+        "id": "telecom",
+        "icon": "📡",
+        "title": "Telecommunications",
+        "desc": "IP telephony, routers, WiFi repeaters, antennas and network electronics for businesses.",
+        "problem": "Is your connectivity professional?"
+      },
+      {
+        "id": "redes",
+        "icon": "🌐",
+        "title": "Business Networks",
+        "desc": "Design, installation and maintenance of secure and scalable corporate networks.",
+        "problem": "Does your network support your business?"
+      }
+    ],
+    "cta": "Learn more →"
+  },
+  "howwework": {
+    "title": "A close, clear and personalized method",
+    "subtitle": "We work as if the solution were for our own company",
+    "steps": [
+      {
+        "num": "01",
+        "title": "We Listen",
+        "desc": "We understand your situation, processes and real objectives before proposing anything."
+      },
+      {
+        "num": "02",
+        "title": "We Analyze",
+        "desc": "We review your infrastructure, systems and needs with technical expertise."
+      },
+      {
+        "num": "03",
+        "title": "We Design",
+        "desc": "We create a personalized solution, without closed packages, adapted to your company."
+      },
+      {
+        "num": "04",
+        "title": "We Implement",
+        "desc": "We execute with precision, with minimal impact on your daily operations."
+      },
+      {
+        "num": "05",
+        "title": "We Support",
+        "desc": "We don't disappear. We maintain, improve and are there when you need us."
+      }
+    ]
+  },
+  "sectors": {
+    "title": "Solutions for businesses across all sectors",
+    "subtitle": "Each sector has different technology challenges. That's why we adapt every solution to the real workings of each business.",
+    "items": [
+      "Educational centers",
+      "Law firms",
+      "Agencies",
+      "Restaurants & hospitality",
+      "Hotels",
+      "Retail",
+      "Service companies",
+      "SMEs"
+    ]
+  },
+  "cyber": {
+    "eyebrow": "Cybersecurity",
+    "title": "Security is not a reaction. It's a strategy.",
+    "subtitle": "At Onilusion we integrate security from the design of every solution, not as an afterthought.",
+    "items": [
+      {
+        "icon": "🛡",
+        "title": "Security audits",
+        "desc": "We analyze vulnerabilities and risk points in your systems."
+      },
+      {
+        "icon": "🔒",
+        "title": "Data protection",
+        "desc": "GDPR compliance, encryption and secure access policies."
+      },
+      {
+        "icon": "🌐",
+        "title": "Secure networks",
+        "desc": "Firewalls, network segmentation and encrypted communications."
+      },
+      {
+        "icon": "🚨",
+        "title": "Threat prevention",
+        "desc": "Proactive strategy against ransomware and cyberattacks."
+      }
+    ],
+    "cta": "Discover our cybersecurity services"
+  },
+  "partners": {
+    "title": "We work with leading technology",
+    "subtitle": "We use solutions from proven manufacturers to deliver reliable, secure and scalable infrastructures.",
+    "brands": [
+      "Dell",
+      "Cisco",
+      "HP",
+      "Microsoft",
+      "Fortinet",
+      "VMware",
+      "Synology"
+    ]
+  },
+  "about": {
+    "eyebrow": "About Onilusion",
+    "title": "Over two decades as the technology partner for Spanish businesses",
+    "subtitle": "Founded in 2001 in Madrid, Onilusion is a technology company with a family spirit and high professional standards.",
+    "values": [
+      {
+        "icon": "🤝",
+        "title": "Closeness",
+        "desc": "We speak your language, not just tech."
+      },
+      {
+        "icon": "🎯",
+        "title": "Personalization",
+        "desc": "Every business is different. Every solution too."
+      },
+      {
+        "icon": "🔐",
+        "title": "Security",
+        "desc": "Secure technology from day one."
+      },
+      {
+        "icon": "⭐",
+        "title": "Quality",
+        "desc": "We work as if it were for our own company."
+      }
+    ],
+    "cta_history": "Our story",
+    "cta_contact": "Talk to our team"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "We answer the most common questions. If you can't find what you're looking for, write to us.",
+    "items": [
+      {
+        "q": "Do you only work in Madrid or across Spain?",
+        "a": "Our headquarters are in Madrid, where we offer both on-site and remote service. For the rest of Spain, we work remotely with the same quality and response time."
+      },
+      {
+        "q": "Do you offer both on-site and remote support?",
+        "a": "Yes. We adapt the service mode to each client: remote access for common incidents and on-site when the situation requires it."
+      },
+      {
+        "q": "Do you work with small SMEs?",
+        "a": "Yes. SMEs are our main clients. No company is too small if it has real technology needs."
+      },
+      {
+        "q": "Can you act as an external IT department?",
+        "a": "Yes. Many of our clients don't have an internal IT department. We take on that role, either fully or partially, based on each organization's needs."
+      },
+      {
+        "q": "Do you perform cybersecurity audits?",
+        "a": "Yes. We analyze the company's security posture, identify vulnerabilities and propose corrective and preventive measures tailored to each case."
+      },
+      {
+        "q": "Do you install routers, WiFi repeaters and business networks?",
+        "a": "Yes. We design, install and maintain professional network infrastructures, including WiFi, cabling, network electronics and telecommunications."
+      },
+      {
+        "q": "Do you offer ongoing IT maintenance?",
+        "a": "Yes. We offer preventive and corrective maintenance, monitoring and incident management to keep your business running."
+      },
+      {
+        "q": "Do you develop custom software?",
+        "a": "Yes. We develop software, applications and digital solutions adapted to the real processes of each company, including APIs and integrations."
+      },
+      {
+        "q": "Can you improve an old website?",
+        "a": "Yes. We redesign, optimize or rebuild corporate websites focused on performance, security, SEO and user experience."
+      },
+      {
+        "q": "Do you work with hotels, restaurants, schools and law firms?",
+        "a": "Yes. We have experience in multiple sectors: hospitality, education, professional firms, agencies, retail and service companies."
+      },
+      {
+        "q": "What sets Onilusion apart from other IT companies?",
+        "a": "Real personalization. We don't sell closed packages. We listen, analyze and design specific solutions for each client. We've been doing it for over two decades."
+      },
+      {
+        "q": "How do I request a quote?",
+        "a": "You can contact us via form, email or phone. Tell us your situation, we'll analyze it and present a proposal tailored to your needs and budget."
+      }
+    ],
+    "cta": "Have another question? Contact us"
+  },
+  "cta_final": {
+    "title": "Ready to improve your company's technology?",
+    "subtitle": "Tell us your situation and we'll guide you with no commitment.",
+    "cta_primary": "Request Consultation",
+    "cta_secondary": "Call Now"
+  },
+  "contact": {
+    "title": "Let's talk about how to improve your company's technology",
+    "subtitle": "Tell us your situation. We'll guide you with no commitment.",
+    "address_label": "Address",
+    "address": "Calle Doctor Esquerdo, 105\n28007 Madrid, Spain",
+    "phone_label": "Phone",
+    "phone": "914 009 634",
+    "email_label": "Email",
+    "email": "info@onilusion.com",
+    "coverage_label": "Coverage",
+    "coverage": "Madrid and all of Spain",
+    "form": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "service": "Service type",
+      "message": "Tell us what you need",
+      "privacy": "I have read and accept the",
+      "privacy_link": "privacy policy",
+      "submit": "Send request",
+      "sending": "Sending...",
+      "success_title": "Message sent!",
+      "success_desc": "We'll get back to you as soon as possible.",
+      "error": "An error occurred. Please try again or email us directly at info@onilusion.com",
+      "services": [
+        "Cybersecurity",
+        "IT Maintenance",
+        "IT Consulting",
+        "Web / Software Development",
+        "Infrastructure / Networks",
+        "Telecommunications",
+        "Cloud / Business Software",
+        "Other"
+      ]
+    }
+  },
+  "footer": {
+    "description": "Madrid-based technology company founded in 2001. Close, secure and personalized IT solutions for SMEs and businesses across Spain.",
+    "services_title": "Services",
+    "company_title": "Company",
+    "legal_title": "Legal",
+    "contact_title": "Contact",
+    "links": {
+      "services": "Services",
+      "cybersecurity": "Cybersecurity",
+      "maintenance": "IT Maintenance",
+      "consulting": "Consulting",
+      "development": "Development",
+      "about": "About Us",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "legal": "Legal Notice",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2026 Onilusion S.A. All rights reserved.",
+    "cif": "VAT: A82874603"
+  },
+  "cookies": {
+    "title": "We use cookies",
+    "desc": "We use our own and third-party cookies to improve your experience, analyze traffic and personalize content.",
+    "accept": "Accept all",
+    "reject": "Reject non-essential",
+    "configure": "Configure",
+    "privacy_link": "Cookie Policy"
+  },
+  "pages": {
+    "services": {
+      "title": "Comprehensive technology services for SMEs and businesses",
+      "subtitle": "From consulting to development, cybersecurity and infrastructure: all in one technology partner.",
+      "cta": "Don't see what you need? Tell us your case",
+      "categories": [
+        {
+          "id": "consultoria",
+          "title": "IT & technology consulting",
+          "desc": "We analyse your technology landscape and guide you towards the right decisions for your business.",
+          "items": [
+            "IT consulting",
+            "Technology advisory",
+            "IT audit",
+            "IT planning",
+            "Systems optimisation",
+            "Outsourced IT department",
+            "Ongoing technology support"
+          ]
+        },
+        {
+          "id": "ciberseguridad",
+          "title": "Cybersecurity",
+          "desc": "We protect your business against current threats with a preventive, proactive strategy.",
+          "items": [
+            "Security audits",
+            "Systems protection",
+            "Data protection (GDPR)",
+            "Corporate network protection",
+            "Ransomware prevention",
+            "Vulnerability reviews",
+            "Secure communications"
+          ]
+        },
+        {
+          "id": "mantenimiento",
+          "title": "IT services & maintenance",
+          "desc": "Keep your infrastructure running with fast, preventive and corrective support.",
+          "items": [
+            "Preventive and corrective maintenance",
+            "Remote support",
+            "On-site support in Madrid",
+            "Incident management",
+            "Systems monitoring",
+            "Hardware updates and optimisation"
+          ]
+        },
+        {
+          "id": "infraestructura",
+          "title": "Technology infrastructure",
+          "desc": "We design and deploy robust infrastructure adapted to your company's size and needs.",
+          "items": [
+            "Server installation and management",
+            "Business networks",
+            "IT equipment (laptops, desktops, POS)",
+            "Firewalls and perimeter security",
+            "NAS and storage",
+            "Virtualisation"
+          ]
+        },
+        {
+          "id": "telecom",
+          "title": "Telecommunications & connectivity",
+          "desc": "Professional, stable connectivity so your business never loses communication.",
+          "items": [
+            "IP telephony",
+            "Routers and network electronics",
+            "Professional WiFi networks and repeaters",
+            "Antennas",
+            "Corporate communications"
+          ]
+        },
+        {
+          "id": "cloud",
+          "title": "Cloud & business software",
+          "desc": "Unlock the potential of the cloud with solutions adapted to your business.",
+          "items": [
+            "Cloud migration",
+            "Online ERP",
+            "Business management software",
+            "Digital solutions deployment",
+            "Process optimisation"
+          ]
+        },
+        {
+          "id": "desarrollo",
+          "title": "Development & digitalisation",
+          "desc": "Software, websites and integrations built around your company's real processes.",
+          "items": [
+            "Custom software development",
+            "Corporate web development",
+            "Web design",
+            "APIs and integrations",
+            "Process automation",
+            "Digital applications"
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "Over two decades as the technology partner for Spanish businesses",
+      "subtitle": "Family company. High professional standards. Personal approach. Real personalization.",
+      "mission_title": "Our mission",
+      "mission_text": "We believe technology should serve people and businesses. Our mission is to offer personalized, close and professional technology solutions, adapted to the real needs of each client. We work in a family environment where we care for both our clients and our team.",
+      "diff_title": "What sets us apart",
+      "diff_text": "We don't sell standard solutions. Every client is different. Every company has unique needs, processes, challenges and objectives. Onilusion analyzes each case and creates solutions tailored to each client.",
+      "values_title": "Our values",
+      "founded": "Founded in 2001",
+      "location": "Based in Madrid",
+      "coverage": "National coverage"
+    },
+    "faq": {
+      "title": "Frequently asked questions about our technology services",
+      "subtitle": "Answers to the most common questions about how we work, what services we offer and how we can help you."
+    },
+    "legal": {
+      "title": "Legal Notice",
+      "company": "Company information",
+      "name_label": "Company name",
+      "name": "Onilusion S.A.",
+      "cif_label": "VAT",
+      "cif": "A82874603",
+      "address_label": "Registered office",
+      "address": "Calle Doctor Esquerdo, 105, 28007 Madrid, Spain",
+      "activity_label": "Business activity",
+      "activity": "Provision of consulting, advisory and advertising services in informatics, electronics and telecommunications, as well as research and development of computer applications and systems.",
+      "email_label": "Email",
+      "email": "info@onilusion.com",
+      "phone_label": "Phone",
+      "phone": "914 009 634",
+      "sections": [
+        {
+          "h": "Terms of use",
+          "p": "Accessing and using this website grants the status of user and implies acceptance of these terms. Users agree to make appropriate use of the content and not to use it for unlawful activities or against good faith."
+        },
+        {
+          "h": "Intellectual and industrial property",
+          "p": "The contents of this website (texts, images, logos, design and code) are owned by Onilusion S.A. or by third parties who have authorised their use, and are protected by intellectual and industrial property law. Reproduction without express authorisation is prohibited."
+        },
+        {
+          "h": "Liability",
+          "p": "Onilusion S.A. is not liable for damages arising from improper use of this website or for the content of third-party sites linked from it. We work to keep the information up to date and accurate, without guaranteeing the complete absence of errors."
+        },
+        {
+          "h": "Applicable law",
+          "p": "These terms are governed by Spanish law. Any dispute shall be submitted to the courts of Madrid, unless applicable regulations provide otherwise."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "Information about the processing of your personal data",
+      "sections": [
+        {
+          "h": "Data controller",
+          "p": "Onilusion S.A., VAT ID A82874603, registered at Calle Doctor Esquerdo, 105, 28007 Madrid (Spain). Email: info@onilusion.com. Phone: +34 914 009 634."
+        },
+        {
+          "h": "Purpose of processing",
+          "p": "Data provided through the contact form is processed to handle your enquiry or quote request and to manage any resulting business relationship. No automated decision-making or profiling takes place."
+        },
+        {
+          "h": "Legal basis",
+          "p": "The legal basis for processing is the data subject's consent (art. 6.1.a GDPR), given by ticking the acceptance box on the form, and the legitimate interest in responding to enquiries received."
+        },
+        {
+          "h": "Data retention",
+          "p": "Data is kept for as long as necessary to handle your request and, thereafter, for the legally required periods."
+        },
+        {
+          "h": "Recipients",
+          "p": "Data is not shared with third parties except where legally required. No international data transfers take place."
+        },
+        {
+          "h": "Your rights",
+          "p": "You may exercise your rights of access, rectification, erasure, objection, restriction of processing and portability by writing to info@onilusion.com, providing proof of identity. You may also lodge a complaint with the Spanish Data Protection Agency (www.aepd.es)."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "subtitle": "Information about the cookies we use",
+      "sections": [
+        {
+          "h": "What are cookies?",
+          "p": "Cookies are small files stored on your device when you visit a website, allowing it to remember information about your visit, such as language or preferences."
+        },
+        {
+          "h": "Cookies we use",
+          "p": "This site only uses cookies and technical storage necessary for its operation: your language preference and your decision regarding cookie use. We do not use advertising cookies. If analytics cookies are added in the future, they will only be activated with your prior consent."
+        },
+        {
+          "h": "Managing cookies",
+          "p": "You can accept or reject non-essential cookies from the settings banner. You can also delete or block cookies from your browser settings at any time."
+        },
+        {
+          "h": "Updates",
+          "p": "This policy may be updated to reflect regulatory or technical changes. We recommend reviewing it periodically."
+        }
+      ]
+    }
+  },
+  "meta": {
+    "home_title": "IT Company Madrid — Technology Solutions for SMEs | Onilusion S.A.",
+    "home_desc": "IT company in Madrid with over 20 years of experience. IT services, cybersecurity, maintenance, infrastructure, cloud and development for SMEs across Spain.",
+    "services_title": "Technology Services for SMEs in Madrid | Onilusion S.A.",
+    "services_desc": "IT consulting, cybersecurity, IT maintenance, infrastructure, telecommunications, cloud and software development for businesses in Madrid and across Spain.",
+    "about_title": "About Onilusion — IT Company in Madrid since 2001 | Onilusion S.A.",
+    "about_desc": "Discover Onilusion S.A., Madrid-based technology company founded in 2001. Over 500 clients, over 1,000 projects and more than two decades of IT expertise.",
+    "contact_title": "Contact — Request technology consultation | Onilusion S.A.",
+    "contact_desc": "Contact Onilusion S.A. in Madrid. Request IT consultation with no commitment. Phone: 914 009 634. Email: info@onilusion.com.",
+    "faq_title": "FAQ about IT services | Onilusion S.A.",
+    "faq_desc": "Answers to common questions about IT maintenance, cybersecurity, software development and technology infrastructure for SMEs."
+  }
+}

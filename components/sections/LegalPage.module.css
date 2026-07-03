@@ -1,0 +1,67 @@
+.legal {
+  background: var(--midnight);
+}
+
+.content {
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.companyCard {
+  padding: 32px 28px;
+  background: var(--surface);
+  border: 1px solid var(--borde-oscuro);
+  border-radius: var(--radius-lg);
+}
+
+.dataList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.dataRow {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 16px;
+}
+
+.dataLabel {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--gris-neutro);
+}
+
+.dataValue {
+  font-size: var(--text-sm);
+  color: var(--blanco-calido);
+  line-height: 1.6;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionTitle {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--blanco-calido);
+}
+
+.sectionText {
+  font-size: var(--text-base);
+  color: var(--gris-neutro);
+  line-height: 1.8;
+}
+
+@media (max-width: 560px) {
+  .dataRow {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
