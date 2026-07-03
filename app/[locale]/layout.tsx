@@ -3,6 +3,7 @@ import { Inter, Sora } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { routing } from '@/i18n/routing';
 import { site } from '@/lib/site';
 import { organizationSchema } from '@/lib/schema';
@@ -68,6 +69,7 @@ export default async function LocaleLayout({
           <Footer />
           <CookieBanner />
         </NextIntlClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
