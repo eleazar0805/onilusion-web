@@ -113,11 +113,6 @@
   color: var(--gris-neutro);
 }
 
-.cif {
-  font-size: var(--text-xs);
-  color: var(--gris-neutro);
-}
-
 .langSwitch {
   display: flex;
   align-items: center;

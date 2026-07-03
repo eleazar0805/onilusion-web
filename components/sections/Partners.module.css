@@ -1,8 +1,25 @@
-/* Franja clara tipo "trusted by" */
+/* Franja de partners integrada en la estética oscura de la web */
 .partners {
-  background: var(--slate-bg);
+  position: relative;
+  background:
+    radial-gradient(ellipse 70% 90% at 50% -20%, rgba(20, 101, 224, 0.14), transparent 60%),
+    var(--deep-navy);
+  border-block: 1px solid var(--borde-oscuro);
   padding-block: 80px;
   overflow: hidden;
+}
+
+/* Glow inferior muy sutil para dar profundidad sin sobrecargar */
+.partners::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -140px;
+  transform: translateX(-50%);
+  width: 640px;
+  height: 240px;
+  background: radial-gradient(ellipse at center, rgba(53, 196, 228, 0.08), transparent 65%);
+  pointer-events: none;
 }
 
 .header {
@@ -10,12 +27,12 @@
 }
 
 .title {
-  color: var(--midnight);
+  color: var(--blanco-calido);
 }
 
 .subtitle {
   margin-top: 16px;
-  color: #5A6478;
+  color: var(--gris-neutro);
 }
 
 /* ── Marquee ── */
@@ -51,23 +68,25 @@
 .logoItem {
   flex-shrink: 0;
   padding: 20px 42px;
-  border: 1px solid var(--borde-claro);
+  border: 1px solid var(--borde-oscuro);
   border-radius: var(--radius-md);
-  background: var(--blanco);
+  background: rgba(16, 30, 60, 0.55);
+  backdrop-filter: blur(4px);
   margin-right: 20px;
-  transition: transform var(--t-normal), box-shadow var(--t-normal), border-color var(--t-normal);
+  transition: transform var(--t-normal), box-shadow var(--t-normal), border-color var(--t-normal), background var(--t-normal);
 }
 
 .logoItem:hover {
   transform: translateY(-4px) scale(1.03);
-  border-color: rgba(20, 101, 224, 0.35);
-  box-shadow: 0 12px 32px rgba(10, 23, 51, 0.12);
+  border-color: rgba(53, 196, 228, 0.5);
+  background: rgba(22, 38, 74, 0.75);
+  box-shadow: 0 12px 36px rgba(4, 10, 30, 0.5), 0 0 24px rgba(53, 196, 228, 0.12);
 }
 
 .logoItem:hover .logoText {
-  filter: none;
   opacity: 1;
-  color: var(--cobalto);
+  color: var(--blanco);
+  text-shadow: 0 0 20px rgba(53, 196, 228, 0.4);
 }
 
 .logoText {
@@ -75,11 +94,10 @@
   font-size: var(--text-xl);
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: #6B7488;
-  /* Escala de grises / baja opacidad hasta el hover */
-  filter: grayscale(1);
-  opacity: 0.75;
-  transition: color var(--t-normal), opacity var(--t-normal), filter var(--t-normal);
+  color: var(--plata);
+  /* Baja opacidad hasta el hover */
+  opacity: 0.6;
+  transition: color var(--t-normal), opacity var(--t-normal), text-shadow var(--t-normal);
   white-space: nowrap;
 }
 

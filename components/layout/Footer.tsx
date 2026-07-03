@@ -77,7 +77,6 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>{t('footer.copyright')}</p>
-          <p className={styles.cif}>{t('footer.cif')}</p>
           <div className={styles.langSwitch}>
             <Link href="/es" className={locale === 'es' ? styles.langActive : styles.lang}>ES</Link>
             <span className={styles.langSep}>·</span>

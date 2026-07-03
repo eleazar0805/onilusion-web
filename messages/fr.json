@@ -182,7 +182,7 @@
   "about": {
     "eyebrow": "À propos d'Onilusion",
     "title": "Plus de deux décennies comme partenaire technologique des entreprises espagnoles",
-    "subtitle": "Fondée en 2001 à Madrid, Onilusion est une entreprise technologique à esprit familial et haut niveau professionnel.",
+    "subtitle": "Onilusion S.A. est une entreprise technologique basée à Madrid qui accompagne les PME et les entreprises dans la conception, le déploiement, la maintenance et l'évolution de leurs solutions informatiques, technologiques et de télécommunications.",
     "values": [
       {
         "icon": "🤝",
@@ -206,7 +206,8 @@
       }
     ],
     "cta_history": "Notre histoire",
-    "cta_contact": "Parlez à notre équipe"
+    "cta_contact": "Parlez à notre équipe",
+    "subtitle2": "Depuis 2001, nous aidons des entreprises de nombreux secteurs à améliorer leur infrastructure, protéger leurs systèmes et avancer dans leur transformation numérique, avec une approche proche, professionnelle et personnalisée."
   },
   "faq": {
     "title": "Questions fréquentes",
@@ -325,8 +326,7 @@
       "privacy": "Politique de confidentialité",
       "cookies": "Politique de cookies"
     },
-    "copyright": "© 2026 Onilusion S.A. Tous droits réservés.",
-    "cif": "NIF: A82874603"
+    "copyright": "© 2026 Onilusion S.A. Tous droits réservés."
   },
   "cookies": {
     "title": "Nous utilisons des cookies",

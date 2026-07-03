@@ -182,7 +182,7 @@
   "about": {
     "eyebrow": "Sobre Onilusion",
     "title": "Más de dos décadas siendo el socio tecnológico de empresas españolas",
-    "subtitle": "Fundada en 2001 en Madrid, Onilusion es una empresa tecnológica con alma familiar y alto nivel profesional. Cuidamos tanto de nuestros clientes como de nuestro equipo.",
+    "subtitle": "Onilusion S.A. es una empresa tecnológica con sede en Madrid que acompaña a pymes y empresas en el diseño, implantación, mantenimiento y evolución de sus soluciones informáticas, tecnológicas y de telecomunicaciones.",
     "values": [
       {
         "icon": "🤝",
@@ -206,7 +206,8 @@
       }
     ],
     "cta_history": "Conoce nuestra historia",
-    "cta_contact": "Habla con nuestro equipo"
+    "cta_contact": "Habla con nuestro equipo",
+    "subtitle2": "Desde 2001, ayudamos a empresas de diferentes sectores a mejorar su infraestructura, proteger sus sistemas y avanzar en su transformación digital con un trato cercano, profesional y personalizado."
   },
   "faq": {
     "title": "Preguntas frecuentes",
@@ -325,8 +326,7 @@
       "privacy": "Política de privacidad",
       "cookies": "Política de cookies"
     },
-    "copyright": "© 2026 Onilusion S.A. Todos los derechos reservados.",
-    "cif": "CIF: A82874603"
+    "copyright": "© 2026 Onilusion S.A. Todos los derechos reservados."
   },
   "cookies": {
     "title": "Utilizamos cookies",

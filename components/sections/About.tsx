@@ -22,6 +22,7 @@ export default async function About({ locale }: { locale: string }) {
             <span className="eyebrow">{t('eyebrow')}</span>
             <h2 className="section-title">{t('title')}</h2>
             <p className={styles.text}>{t('subtitle')}</p>
+            <p className={styles.text}>{t('subtitle2')}</p>
             <div className={styles.ctas}>
               <Link href={`/${locale}${paths.about}`} className="btn btn--primary">
                 {t('cta_history')}
