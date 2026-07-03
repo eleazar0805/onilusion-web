@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import styles from './Hero.module.css';
 
 /**
- * Vídeo del hero: autoplay silencioso en bucle.
+ * Vídeo de fondo del hero: autoplay silencioso en bucle con póster de fallback.
  * Si el usuario prefiere movimiento reducido, se detiene en el primer frame.
  */
 export default function HeroVideo() {
@@ -27,6 +27,7 @@ export default function HeroVideo() {
       loop
       playsInline
       preload="metadata"
+      poster="/videos/hero-poster.jpg"
       aria-hidden="true"
       tabIndex={-1}
     >

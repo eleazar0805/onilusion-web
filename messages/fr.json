@@ -4,19 +4,21 @@
     "about": "À propos",
     "faq": "FAQ",
     "contact": "Contact",
-    "cta": "Demander un conseil"
+    "cta": "Demander un conseil",
+    "home": "Accueil"
   },
   "hero": {
     "badge": "Depuis 2001 · Madrid · Espagne",
     "h1_part1": "Solutions technologiques",
     "h1_part2": "sécurisées, proches et adaptées",
     "h1_part3": "à votre entreprise",
-    "subtitle": "Nous aidons les PME et entreprises de toute l'Espagne à protéger, maintenir et faire évoluer leur technologie avec des services IT, cybersécurité, cloud, développement et infrastructure personnalisée.",
+    "subtitle": "Conseil informatique, cybersécurité, infrastructure, télécommunications, cloud et développement numérique pour les PME et entreprises de toute l'Espagne.",
     "trust1": "Siège à Madrid · Couverture nationale",
     "trust2": "Plus de deux décennies d'expérience",
     "trust3": "Solutions adaptées à chaque client",
     "cta_primary": "Demander un conseil",
-    "cta_secondary": "Voir les services"
+    "cta_secondary": "Voir les services",
+    "trust4": "Support technique sur site et à distance"
   },
   "trust": {
     "years_label": "Années d'expérience",
@@ -165,8 +167,8 @@
     "cta": "Découvrez nos services de cybersécurité"
   },
   "partners": {
-    "title": "Nous travaillons avec des technologies leaders du secteur",
-    "subtitle": "Nous utilisons des solutions de fabricants éprouvés pour fournir des infrastructures fiables, sécurisées et évolutives.",
+    "title": "Nous travaillons avec des technologies de référence",
+    "subtitle": "Nous collaborons avec des fabricants et des solutions technologiques de référence pour offrir des infrastructures fiables, sécurisées et prêtes à évoluer.",
     "brands": [
       "Dell",
       "Cisco",

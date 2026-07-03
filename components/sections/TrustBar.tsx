@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import Reveal from '@/components/ui/Reveal';
+import CountUp from '@/components/ui/CountUp';
 import styles from './TrustBar.module.css';
 
 const stats = [
@@ -19,7 +20,7 @@ export default async function TrustBar() {
           <dl className={styles.grid}>
             {stats.map((s) => (
               <div key={s.label} className={styles.stat}>
-                <dd className={styles.value}>{t(s.value)}</dd>
+                <dd className={styles.value}><CountUp value={t(s.value)} /></dd>
                 <dt className={styles.label}>{t(s.label)}</dt>
               </div>
             ))}

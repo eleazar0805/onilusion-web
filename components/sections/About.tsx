@@ -15,7 +15,7 @@ export default async function About({ locale }: { locale: string }) {
   }[];
 
   return (
-    <section className={`section ${styles.about}`} id="sobre-onilusion">
+    <section className={`section ${styles.about}`} id="sobre-nosotros">
       <div className="container">
         <div className={styles.grid}>
           <Reveal className={styles.intro}>

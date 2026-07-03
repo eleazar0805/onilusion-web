@@ -30,8 +30,8 @@ export default function HomePage({ params: { locale } }: Props) {
       <HowWeWork />
       <Cyber locale={locale} />
       <Sectors />
-      <Partners />
       <Faq locale={locale} limit={6} />
+      <Partners />
       <CtaBanner locale={locale} />
     </>
   );

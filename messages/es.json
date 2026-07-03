@@ -4,19 +4,21 @@
     "about": "Sobre nosotros",
     "faq": "FAQ",
     "contact": "Contacto",
-    "cta": "Solicitar asesoramiento"
+    "cta": "Solicitar asesoramiento",
+    "home": "Inicio"
   },
   "hero": {
     "badge": "Desde 2001 · Madrid · España",
     "h1_part1": "Soluciones tecnológicas",
     "h1_part2": "seguras, cercanas y adaptadas",
     "h1_part3": "a tu empresa",
-    "subtitle": "Ayudamos a pymes y empresas de toda España a proteger, mantener y evolucionar su tecnología con servicios IT, ciberseguridad, cloud, desarrollo e infraestructura personalizada.",
+    "subtitle": "Consultoría informática, ciberseguridad, infraestructura, telecomunicaciones, cloud y desarrollo digital para pymes y empresas de toda España.",
     "trust1": "Sede en Madrid · Cobertura nacional",
     "trust2": "Más de dos décadas de experiencia",
     "trust3": "Soluciones adaptadas a cada cliente",
     "cta_primary": "Solicitar asesoramiento",
-    "cta_secondary": "Ver servicios"
+    "cta_secondary": "Ver servicios",
+    "trust4": "Soporte técnico presencial y remoto"
   },
   "trust": {
     "years_label": "Años de experiencia",
@@ -165,8 +167,8 @@
     "cta": "Conoce nuestros servicios de ciberseguridad"
   },
   "partners": {
-    "title": "Trabajamos con tecnología líder del sector",
-    "subtitle": "Utilizamos soluciones de fabricantes contrastados para ofrecer infraestructuras fiables, seguras y preparadas para crecer.",
+    "title": "Trabajamos con tecnología líder",
+    "subtitle": "Colaboramos con fabricantes y soluciones tecnológicas de referencia para ofrecer infraestructuras fiables, seguras y preparadas para crecer.",
     "brands": [
       "Dell",
       "Cisco",

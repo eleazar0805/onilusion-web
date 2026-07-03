@@ -9,7 +9,7 @@ export default async function CtaBanner({ locale }: { locale: string }) {
   const t = await getTranslations('cta_final');
 
   return (
-    <section className={`section ${styles.wrap}`}>
+    <section className={`section ${styles.wrap}`} id="contacto">
       <div className="container">
         <Reveal>
           <div className={styles.banner}>

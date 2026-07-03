@@ -1,7 +1,9 @@
 .header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  /* Por encima del menú móvil (para que la hamburguesa siga visible)
+     y del banner de cookies */
+  z-index: 1002;
   background: rgba(8, 12, 24, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -184,7 +186,8 @@
   overflow-y: auto;
   background: var(--midnight);
   border-top: 1px solid var(--borde-oscuro);
-  z-index: 99;
+  /* Por encima de todo el contenido, solo por debajo del header */
+  z-index: 1001;
   opacity: 0;
   pointer-events: none;
   transform: translateY(-8px);

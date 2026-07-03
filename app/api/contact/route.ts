@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
 
     await transporter.sendMail({
       from: process.env.SMTP_FROM ?? `Web Onilusion <no-reply@onilusion.com>`,
-      to: process.env.CONTACT_TO ?? site.email,
+      to: process.env.CONTACT_EMAIL ?? process.env.CONTACT_TO ?? site.email,
       replyTo: singleLine(data.email),
       subject: `[Web] Solicitud de ${singleLine(data.name)} — ${singleLine(data.service)}`,
       text: [

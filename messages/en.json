@@ -4,19 +4,21 @@
     "about": "About Us",
     "faq": "FAQ",
     "contact": "Contact",
-    "cta": "Request Consultation"
+    "cta": "Request Consultation",
+    "home": "Home"
   },
   "hero": {
     "badge": "Since 2001 · Madrid · Spain",
     "h1_part1": "Secure, close and tailored",
     "h1_part2": "technology solutions",
     "h1_part3": "for your business",
-    "subtitle": "We help SMEs and companies across Spain protect, maintain and evolve their technology with IT services, cybersecurity, cloud, development and personalized infrastructure.",
+    "subtitle": "IT consulting, cybersecurity, infrastructure, telecommunications, cloud and digital development for SMEs and businesses across Spain.",
     "trust1": "Based in Madrid · National coverage",
     "trust2": "Over two decades of experience",
     "trust3": "Solutions tailored to each client",
     "cta_primary": "Request Consultation",
-    "cta_secondary": "View Services"
+    "cta_secondary": "View Services",
+    "trust4": "On-site and remote technical support"
   },
   "trust": {
     "years_label": "Years of experience",
@@ -166,7 +168,7 @@
   },
   "partners": {
     "title": "We work with leading technology",
-    "subtitle": "We use solutions from proven manufacturers to deliver reliable, secure and scalable infrastructures.",
+    "subtitle": "We collaborate with leading manufacturers and technology solutions to deliver reliable, secure infrastructures that are ready to grow.",
     "brands": [
       "Dell",
       "Cisco",
