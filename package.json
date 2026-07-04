@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.9.0",
-    "next": "^14.2.35",
+    "@hookform/resolvers": "^5.4.0",
+    "next": "^16.2.10",
     "next-intl": "^4.13.1",
     "nodemailer": "^9.0.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^19",
+    "react-dom": "^19",
     "react-hook-form": "^7.52.1",
-    "zod": "^3.23.8"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/nodemailer": "^8.0.1",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "eslint": "^8",
     "eslint-config-next": "^14.2.35",
     "typescript": "^5"
