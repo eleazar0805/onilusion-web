@@ -774,6 +774,16 @@
       "benefits": "Por qué con Onilusion",
       "faq": "Preguntas frecuentes sobre este servicio",
       "back": "Ver todos los servicios"
+    },
+    "sector_landing": {
+      "badge": "Sectores de actividad",
+      "card1_title": "Adaptación sectorial",
+      "card1_text": "Conocemos las normativas específicas, el software de gestión habitual (ERP/CRM) y las necesidades críticas de tu sector.",
+      "card2_title": "Cumplimiento y RGPD",
+      "card2_text": "Cuidamos la confidencialidad de los datos, las copias de seguridad y los requisitos que exige la normativa vigente.",
+      "cta_title": "¿Quieres optimizar la tecnología de tu negocio?",
+      "cta_text": "Planes de soporte informático a medida, con respuesta presencial en Madrid y remota en toda España.",
+      "back": "Ver todos los sectores"
     }
   },
   "meta": {
@@ -793,60 +803,6 @@
     "desc": "La página que buscas no existe o ha cambiado de dirección.",
     "cta": "Volver al inicio",
     "cta2": "Ver servicios"
-  },
-  "dynamic_services": {
-    "ciberseguridad": {
-      "title": "Servicios de Ciberseguridad para Empresas",
-      "desc": "Protección proactiva y auditorías de seguridad informática para tu negocio en Madrid y toda España."
-    },
-    "mantenimiento-informatico": {
-      "title": "Mantenimiento Informático para Empresas",
-      "desc": "Mantenimiento preventivo, correctivo y soporte técnico continuo para pymes y empresas."
-    },
-    "consultoria-informatica": {
-      "title": "Consultoría Informática y Tecnológica",
-      "desc": "Asesoramiento tecnológico estratégico para optimizar los procesos y la infraestructura de tu negocio."
-    },
-    "auditoria-informatica": {
-      "title": "Auditoría Informática y de Sistemas",
-      "desc": "Evaluación técnica de infraestructura, redes y procesos para mejorar seguridad y rendimiento."
-    },
-    "servicios-it": {
-      "title": "Servicios IT Integrales para Pymes",
-      "desc": "Soporte, gestión de sistemas y soluciones tecnológicas a medida para tu empresa."
-    },
-    "infraestructura-tecnologica": {
-      "title": "Infraestructura Tecnológica Empresarial",
-      "desc": "Diseño, implantación y mantenimiento de servidores, almacenamiento y sistemas robustos."
-    },
-    "telecomunicaciones": {
-      "title": "Telecomunicaciones y Conectividad",
-      "desc": "Telefonía IP, routers y soluciones de comunicación avanzadas para empresas."
-    },
-    "redes-empresariales": {
-      "title": "Instalación y Mantenimiento de Redes",
-      "desc": "Electrónica de red, repetidores WiFi y soluciones de conectividad estables."
-    },
-    "desarrollo-web": {
-      "title": "Desarrollo Web Profesional para Empresas",
-      "desc": "Diseño y desarrollo de sitios web corporativos modernos, rápidos y optimizados para SEO."
-    },
-    "desarrollo-software": {
-      "title": "Desarrollo de Software a Medida",
-      "desc": "Aplicaciones de escritorio, móviles y soluciones digitales adaptadas a tus procesos de negocio."
-    },
-    "cloud": {
-      "title": "Soluciones Cloud y ERP Online",
-      "desc": "Migración a la nube, escritorios virtuales y gestión de software empresarial en el cloud."
-    },
-    "apis-integraciones": {
-      "title": "APIs e Integración de Sistemas",
-      "desc": "Conectamos tus aplicaciones y automatizamos el flujo de información de tu negocio."
-    },
-    "soporte-informatico": {
-      "title": "Soporte Informático Presencial y Remoto",
-      "desc": "Asistencia técnica rápida y eficaz para resolver incidencias de hardware y software."
-    }
   },
   "dynamic_sectors": {
     "centros-educativos": {

@@ -774,6 +774,16 @@
       "benefits": "Why Onilusion",
       "faq": "Frequently asked questions about this service",
       "back": "See all services"
+    },
+    "sector_landing": {
+      "badge": "Industries we serve",
+      "card1_title": "Sector-specific expertise",
+      "card1_text": "We know the specific regulations, the usual management software (ERP/CRM) and the critical needs of your sector.",
+      "card2_title": "Compliance & GDPR",
+      "card2_text": "We look after data confidentiality, backups and the requirements demanded by current regulations.",
+      "cta_title": "Want to optimise your business technology?",
+      "cta_text": "Tailored IT support plans, with on-site response in Madrid and remote support across Spain.",
+      "back": "See all sectors"
     }
   },
   "meta": {
@@ -793,60 +803,6 @@
     "desc": "The page you are looking for doesn't exist or has moved.",
     "cta": "Back to home",
     "cta2": "See services"
-  },
-  "dynamic_services": {
-    "ciberseguridad": {
-      "title": "Cybersecurity Services for Businesses",
-      "desc": "Proactive protection and IT security audits for your business in Madrid and across Spain."
-    },
-    "mantenimiento-informatico": {
-      "title": "IT Maintenance for Businesses",
-      "desc": "Preventive, corrective maintenance and continuous technical support for SMEs and corporations."
-    },
-    "consultoria-informatica": {
-      "title": "IT and Technology Consulting",
-      "desc": "Strategic technology consulting to optimize your business processes and infrastructure."
-    },
-    "auditoria-informatica": {
-      "title": "IT Audit and Systems Evaluation",
-      "desc": "Technical evaluation of infrastructure, networks and processes to improve security and performance."
-    },
-    "servicios-it": {
-      "title": "Comprehensive IT Services for SMEs",
-      "desc": "Support, systems management and custom technology solutions for your business."
-    },
-    "infraestructura-tecnologica": {
-      "title": "Enterprise Technology Infrastructure",
-      "desc": "Design, deployment and maintenance of robust servers, storage and systems."
-    },
-    "telecomunicaciones": {
-      "title": "Telecommunications and Connectivity",
-      "desc": "IP telephony, routers and advanced communication solutions for businesses."
-    },
-    "redes-empresariales": {
-      "title": "Network Installation and Maintenance",
-      "desc": "Network electronics, WiFi access points and stable connectivity solutions."
-    },
-    "desarrollo-web": {
-      "title": "Professional Web Development for Businesses",
-      "desc": "Design and development of modern, fast and SEO-optimized corporate websites."
-    },
-    "desarrollo-software": {
-      "title": "Custom Software Development",
-      "desc": "Desktop applications, mobile apps and digital solutions tailored to your business processes."
-    },
-    "cloud": {
-      "title": "Cloud Solutions and Online ERP",
-      "desc": "Cloud migration, virtual desktops and enterprise software management in the cloud."
-    },
-    "apis-integraciones": {
-      "title": "APIs and Systems Integration",
-      "desc": "We connect your applications and automate the information flow of your business."
-    },
-    "soporte-informatico": {
-      "title": "On-site and Remote IT Support",
-      "desc": "Fast and effective technical assistance to resolve hardware and software issues."
-    }
   },
   "dynamic_sectors": {
     "centros-educativos": {

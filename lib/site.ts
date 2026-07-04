@@ -61,3 +61,14 @@ export const slugToServiceId: Record<string, string> = Object.fromEntries(
 export function servicePath(id: string): string {
   return `${paths.services}/${serviceSlugs[id] ?? id}`;
 }
+
+/** Landing por sector de actividad (/sectores/[slug]). */
+export const sectorSlugs = [
+  'centros-educativos',
+  'despachos-abogados',
+  'hoteles',
+  'restaurantes',
+  'agencias',
+  'comercios',
+  'pymes',
+] as const;

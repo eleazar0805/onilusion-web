@@ -774,6 +774,16 @@
       "benefits": "Pourquoi Onilusion",
       "faq": "Questions fréquentes sur ce service",
       "back": "Voir tous les services"
+    },
+    "sector_landing": {
+      "badge": "Secteurs d'activité",
+      "card1_title": "Expertise sectorielle",
+      "card1_text": "Nous connaissons les réglementations spécifiques, les logiciels de gestion habituels (ERP/CRM) et les besoins critiques de votre secteur.",
+      "card2_title": "Conformité et RGPD",
+      "card2_text": "Nous veillons à la confidentialité des données, aux sauvegardes et aux exigences de la réglementation en vigueur.",
+      "cta_title": "Envie d'optimiser la technologie de votre entreprise ?",
+      "cta_text": "Des plans de support informatique sur mesure, avec intervention sur site à Madrid et à distance dans toute l'Espagne.",
+      "back": "Voir tous les secteurs"
     }
   },
   "meta": {
@@ -793,60 +803,6 @@
     "desc": "La page que vous recherchez n'existe pas ou a été déplacée.",
     "cta": "Retour à l'accueil",
     "cta2": "Voir les services"
-  },
-  "dynamic_services": {
-    "ciberseguridad": {
-      "title": "Services de Cybersécurité pour Entreprises",
-      "desc": "Protection proactive et audits de sécurité informatique pour votre entreprise à Madrid et dans toute l'Espagne."
-    },
-    "mantenimiento-informatico": {
-      "title": "Maintenance Informatique pour Entreprises",
-      "desc": "Maintenance préventive, corrective et support technique continu pour PME et grandes entreprises."
-    },
-    "consultoria-informatica": {
-      "title": "Conseil Informatique et Technologique",
-      "desc": "Conseil technologique stratégique pour optimiser vos processus et infrastructures d'affaires."
-    },
-    "auditoria-informatica": {
-      "title": "Audit Informatique et des Systèmes",
-      "desc": "Évaluation technique des infrastructures, réseaux et processus pour améliorer sécurité et performance."
-    },
-    "servicios-it": {
-      "title": "Services IT Complets pour PME",
-      "desc": "Support, gestion de systèmes et solutions technologiques sur mesure pour votre entreprise."
-    },
-    "infraestructura-tecnologica": {
-      "title": "Infrastructure Technologique d'Entreprise",
-      "desc": "Conception, déploiement et maintenance de serveurs, stockage et systèmes robustes."
-    },
-    "telecomunicaciones": {
-      "title": "Télécommunications et Connectivité",
-      "desc": "Téléphonie IP, routeurs et solutions de communication avancées pour les entreprises."
-    },
-    "redes-empresariales": {
-      "title": "Installation et Maintenance de Réseaux",
-      "desc": "Électronique réseau, points d'accès WiFi et solutions de connectivité stables."
-    },
-    "desarrollo-web": {
-      "title": "Développement Web Professionnel pour Entreprises",
-      "desc": "Conception et développement de sites web d'entreprise modernes, rapides et optimisés pour le SEO."
-    },
-    "desarrollo-software": {
-      "title": "Développement de Logiciels sur Mesure",
-      "desc": "Applications de bureau, mobiles et solutions digitales adaptées à vos processus d'affaires."
-    },
-    "cloud": {
-      "title": "Solutions Cloud et ERP en Ligne",
-      "desc": "Migration vers le cloud, bureaux virtuels et gestion de logiciels d'entreprise dans le cloud."
-    },
-    "apis-integraciones": {
-      "title": "APIs et Intégration de Systèmes",
-      "desc": "Nous connectons vos applications et automatisons le flux d'informations de votre entreprise."
-    },
-    "soporte-informatico": {
-      "title": "Support Informatique sur Site et à Distance",
-      "desc": "Assistance technique rapide et efficace pour résoudre les problèmes matériels et logiciels."
-    }
   },
   "dynamic_sectors": {
     "centros-educativos": {

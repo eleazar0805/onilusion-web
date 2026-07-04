@@ -1,120 +1,111 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { routing } from '@/i18n/routing';
 import Link from 'next/link';
+import { routing } from '@/i18n/routing';
+import { site, localeUrl, sectorSlugs } from '@/lib/site';
+import { breadcrumbSchema } from '@/lib/schema';
+import JsonLd from '@/components/ui/JsonLd';
 import Icon from '@/components/ui/Icon';
+import Reveal from '@/components/ui/Reveal';
+import PageHero from '@/components/sections/PageHero';
+import CtaBanner from '@/components/sections/CtaBanner';
 import styles from './SectorPage.module.css';
 
-const VALID_SECTORS = [
-  'centros-educativos',
-  'despachos-abogados',
-  'hoteles',
-  'restaurantes',
-  'agencias',
-  'comercios',
-  'pymes',
-];
+const VALID_SECTORS = sectorSlugs;
 
-type Props = {
-  params: {
-    locale: string;
-    sectorSlug: string;
-  };
-};
+type Props = { params: { locale: string; sectorSlug: string } };
 
-export async function generateStaticParams() {
-  const paths: any[] = [];
-  routing.locales.forEach((locale) => {
-    VALID_SECTORS.forEach((sectorSlug) => {
-      paths.push({ locale, sectorSlug });
-    });
-  });
-  return paths;
+export function generateStaticParams() {
+  return routing.locales.flatMap((locale) =>
+    VALID_SECTORS.map((sectorSlug) => ({ locale, sectorSlug }))
+  );
 }
 
-export async function generateMetadata({ params: { locale, sectorSlug } }: Props) {
-  if (!VALID_SECTORS.includes(sectorSlug)) {
-    return {};
-  }
+export async function generateMetadata({ params: { locale, sectorSlug } }: Props): Promise<Metadata> {
+  if (!VALID_SECTORS.includes(sectorSlug as (typeof VALID_SECTORS)[number])) return {};
   const t = await getTranslations({ locale });
-  const sectorName = t(`dynamic_sectors.${sectorSlug}.title`);
-  const sectorDesc = t(`dynamic_sectors.${sectorSlug}.desc`);
+  const title = t(`dynamic_sectors.${sectorSlug}.title`);
+  const description = t(`dynamic_sectors.${sectorSlug}.desc`);
+  const path = `/sectores/${sectorSlug}`;
 
   return {
-    title: `${sectorName} | Onilusion S.A.`,
-    description: sectorDesc,
+    title: `${title} | ${site.name}`,
+    description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.onilusion.com'}/${locale}/sectores/${sectorSlug}`,
+      canonical: localeUrl(locale, path),
+      languages: {
+        es: localeUrl('es', path),
+        en: localeUrl('en', path),
+        fr: localeUrl('fr', path),
+        'x-default': localeUrl(site.defaultLocale, path),
+      },
     },
+    openGraph: {
+      type: 'website',
+      siteName: site.name,
+      title: `${title} | ${site.name}`,
+      description,
+      url: localeUrl(locale, path),
+      locale: locale === 'es' ? 'es_ES' : locale === 'fr' ? 'fr_FR' : 'en_US',
+    },
+    twitter: { card: 'summary_large_image', title: `${title} | ${site.name}`, description },
   };
 }
 
-export default async function SectorSlugPage({ params: { locale, sectorSlug } }: Props) {
-  if (!VALID_SECTORS.includes(sectorSlug)) {
-    notFound();
-  }
+export default async function SectorLandingPage({ params: { locale, sectorSlug } }: Props) {
+  if (!VALID_SECTORS.includes(sectorSlug as (typeof VALID_SECTORS)[number])) notFound();
   setRequestLocale(locale);
 
-  const t = await getTranslations({ locale });
-  const sectorName = t(`dynamic_sectors.${sectorSlug}.title`);
-  const sectorDesc = t(`dynamic_sectors.${sectorSlug}.desc`);
+  const t = await getTranslations();
+  const tUi = await getTranslations('pages.sector_landing');
+  const title = t(`dynamic_sectors.${sectorSlug}.title`);
+  const description = t(`dynamic_sectors.${sectorSlug}.desc`);
 
   return (
-    <div className={styles.container}>
-      <div className={styles.glow} />
-      <div className="section-container">
-        {/* Enlace de regreso */}
-        <Link href={`/${locale}`} className={styles.backLink}>
-          <Icon name="arrow" size={16} className={styles.backIcon} />
-          {locale === 'en' ? 'Back to Home' : locale === 'fr' ? "Retour à l'accueil" : 'Volver al inicio'}
-        </Link>
+    <>
+      <JsonLd
+        data={breadcrumbSchema(locale, [
+          { name: 'Onilusion', path: '' },
+          { name: tUi('badge'), path: '/#sectores' },
+          { name: title, path: `/sectores/${sectorSlug}` },
+        ])}
+      />
 
-        {/* Contenido principal */}
-        <div className={styles.content}>
-          <div className={styles.header}>
-            <span className={styles.badge}>Sectores de Actividad</span>
-            <h1 className={styles.title}>{sectorName}</h1>
-            <p className={styles.description}>{sectorDesc}</p>
+      <PageHero eyebrow={tUi('badge')} title={title} subtitle={description} />
+
+      <section className={`section ${styles.body}`}>
+        <div className="container">
+          <div className={styles.cards}>
+            <Reveal>
+              <article className={styles.card}>
+                <span className={styles.cardIcon}>
+                  <Icon name="target" size={24} />
+                </span>
+                <h2 className={styles.cardTitle}>{tUi('card1_title')}</h2>
+                <p className={styles.cardText}>{tUi('card1_text')}</p>
+              </article>
+            </Reveal>
+            <Reveal delay={100}>
+              <article className={styles.card}>
+                <span className={styles.cardIcon}>
+                  <Icon name="shield" size={24} />
+                </span>
+                <h2 className={styles.cardTitle}>{tUi('card2_title')}</h2>
+                <p className={styles.cardText}>{tUi('card2_text')}</p>
+              </article>
+            </Reveal>
           </div>
 
-          <div className={styles.features}>
-            <div className={styles.card}>
-              <div className={styles.cardIcon}>
-                <Icon name="laptop" size={24} />
-              </div>
-              <h2 className={styles.cardTitle}>Adaptación Sectorial</h2>
-              <p className={styles.cardText}>
-                Comprendemos las normativas específicas, software de gestión habitual (ERP/CRM) y las necesidades críticas de tu sector.
-              </p>
-            </div>
-
-            <div className={styles.card}>
-              <div className={styles.cardIcon}>
-                <Icon name="audit" size={24} />
-              </div>
-              <h2 className={styles.cardTitle}>Cumplimiento & RGPD</h2>
-              <p className={styles.cardText}>
-                Aseguramos la confidencialidad de los datos, copias de seguridad estancas y la auditoría exigida por la ley vigente.
-              </p>
-            </div>
-          </div>
-
-          {/* Banner de Contacto / Conversión */}
-          <div className={styles.ctaBanner}>
-            <div className={styles.ctaInfo}>
-              <h3 className={styles.ctaTitle}>¿Quieres optimizar la tecnología de tu negocio?</h3>
-              <p className={styles.ctaText}>
-                Ofrecemos planes de soporte informático a medida con respuesta rápida presencial en Madrid y remota en toda España.
-              </p>
-            </div>
-            <div className={styles.ctaActions}>
-              <Link href={`/${locale}/contacto`} className="btn btn-primary">
-                Solicitar asesoramiento
-              </Link>
-            </div>
-          </div>
+          <Reveal className={styles.backRow}>
+            <Link href={`/${locale}/#sectores`} className="btn btn--secondary">
+              {tUi('back')}
+            </Link>
+          </Reveal>
         </div>
-      </div>
-    </div>
+      </section>
+
+      <CtaBanner locale={locale} />
+    </>
   );
 }

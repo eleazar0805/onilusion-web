@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { site, paths, localeUrl, serviceSlugs } from '@/lib/site';
+import { site, paths, localeUrl, serviceSlugs, sectorSlugs } from '@/lib/site';
 
 const servicePages = Object.values(serviceSlugs).map((slug) => ({
   path: `${paths.services}/${slug}`,
@@ -7,10 +7,17 @@ const servicePages = Object.values(serviceSlugs).map((slug) => ({
   changeFrequency: 'monthly' as const,
 }));
 
+const sectorPages = sectorSlugs.map((slug) => ({
+  path: `/sectores/${slug}`,
+  priority: 0.7,
+  changeFrequency: 'monthly' as const,
+}));
+
 const pageEntries: { path: string; priority: number; changeFrequency: 'weekly' | 'monthly' | 'yearly' }[] = [
   { path: paths.home, priority: 1, changeFrequency: 'weekly' },
   { path: paths.services, priority: 0.9, changeFrequency: 'monthly' },
   ...servicePages,
+  ...sectorPages,
   { path: paths.about, priority: 0.7, changeFrequency: 'monthly' },
   { path: paths.faq, priority: 0.6, changeFrequency: 'monthly' },
   { path: paths.contact, priority: 0.8, changeFrequency: 'monthly' },
