@@ -10,6 +10,12 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - dependencias
+    # Solo parches y versiones menores: los saltos de versión mayor
+    # (Next 15/16, React 19, zod 4…) rompen el build y deben migrarse
+    # a mano de forma planificada, no automáticamente.
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
     groups:
       producción:
         dependency-type: production

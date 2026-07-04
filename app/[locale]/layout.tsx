@@ -12,6 +12,7 @@ import Footer from '@/components/layout/Footer';
 import CookieBanner from '@/components/layout/CookieBanner';
 import GoogleTracking from '@/components/ui/GoogleTracking';
 import MobileStickyActions from '@/components/layout/MobileStickyActions';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import '@/styles/globals.css';
 
 const sora = Sora({
@@ -82,6 +83,8 @@ export default async function LocaleLayout({
           <CookieBanner />
           <MobileStickyActions />
         </NextIntlClientProvider>
+        {/* Métricas de rendimiento reales (solo activo en Vercel, sin cookies) */}
+        <SpeedInsights />
       </body>
     </html>
   );
