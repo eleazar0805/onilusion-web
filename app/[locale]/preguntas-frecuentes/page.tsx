@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo';
 import { breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { paths } from '@/lib/site';
@@ -15,7 +15,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 export default async function FaqPage({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = await getTranslations('pages.faq');
   const tNav = await getTranslations('nav');
   const items = (await getTranslations()).raw('faq.items') as { q: string; a: string }[];

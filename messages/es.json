@@ -8,7 +8,6 @@
     "home": "Inicio"
   },
   "hero": {
-    "badge": "Desde 2001 · Madrid · España",
     "h1_part1": "Soluciones tecnológicas",
     "h1_part2": "seguras, cercanas y adaptadas",
     "h1_part3": "a tu empresa",
@@ -35,60 +34,60 @@
     "subtitle": "Un solo socio tecnológico para todas tus necesidades IT",
     "items": [
       {
-        "id": "ciberseguridad",
-        "icon": "🔐",
-        "title": "Ciberseguridad",
-        "desc": "Auditorías, protección de redes, sistemas y datos. Estrategia preventiva frente a amenazas y ransomware.",
-        "problem": "¿Tu empresa está realmente protegida?"
-      },
-      {
-        "id": "mantenimiento",
-        "icon": "🖥",
-        "title": "Mantenimiento informático",
-        "desc": "Soporte remoto y presencial, mantenimiento preventivo y correctivo, gestión de incidencias y monitorización.",
-        "problem": "¿Tienes soporte cuando lo necesitas?"
-      },
-      {
         "id": "consultoria",
         "icon": "💡",
-        "title": "Consultoría IT",
-        "desc": "Asesoramiento tecnológico, planificación IT, auditorías y externalización del departamento informático.",
+        "title": "Consultoría tecnológica y outsourcing",
+        "desc": "Diseño, implantación y optimización de sistemas informáticos. Outsourcing IT adaptado a tu empresa.",
         "problem": "¿Tu tecnología trabaja para ti?"
       },
       {
         "id": "infraestructura",
         "icon": "🏗",
-        "title": "Infraestructura tecnológica",
-        "desc": "Servidores, redes empresariales, equipos informáticos, firewalls y virtualización.",
+        "title": "Infraestructura y mantenimiento",
+        "desc": "Gestión de redes, servidores y equipos. Soporte técnico presencial y remoto para mantener tu empresa operativa.",
         "problem": "¿Tu infraestructura está preparada?"
       },
       {
-        "id": "cloud",
-        "icon": "☁",
-        "title": "Cloud y software empresarial",
-        "desc": "Migración a la nube, ERP online, software de gestión e implantación de soluciones digitales.",
-        "problem": "¿Aprovechas el potencial del cloud?"
+        "id": "ciberseguridad",
+        "icon": "🔐",
+        "title": "Ciberseguridad",
+        "desc": "Protección de sistemas, datos y redes. Auditorías de seguridad y soluciones avanzadas contra amenazas.",
+        "problem": "¿Tu empresa está realmente protegida?"
       },
       {
         "id": "desarrollo",
         "icon": "💻",
-        "title": "Desarrollo web y software",
-        "desc": "Software a medida, desarrollo web, APIs, integraciones y automatización de procesos.",
+        "title": "Desarrollo y digitalización",
+        "desc": "Desarrollo web, software a medida, aplicaciones digitales, APIs e integraciones para optimizar procesos.",
         "problem": "¿Tu software frena tu crecimiento?"
+      },
+      {
+        "id": "cloud",
+        "icon": "☁",
+        "title": "Cloud y ERP online",
+        "desc": "Migración a la nube, implantación de software empresarial y soluciones cloud para mejorar la gestión.",
+        "problem": "¿Aprovechas el potencial del cloud?"
       },
       {
         "id": "telecom",
         "icon": "📡",
-        "title": "Telecomunicaciones",
-        "desc": "Telefonía IP, routers, repetidores WiFi, antenas y electrónica de red para empresas.",
+        "title": "Telecomunicaciones y redes",
+        "desc": "Telefonía IP, routers, repetidores WiFi, antenas y redes empresariales para garantizar conectividad y rendimiento.",
         "problem": "¿Tu conectividad es profesional?"
       },
       {
-        "id": "redes",
-        "icon": "🌐",
-        "title": "Redes empresariales",
-        "desc": "Diseño, instalación y mantenimiento de redes corporativas seguras y escalables.",
-        "problem": "¿Tu red soporta tu negocio?"
+        "id": "hardware",
+        "icon": "🖥",
+        "title": "Equipamiento tecnológico",
+        "desc": "Suministro de ordenadores, servidores, TPV, pantallas y equipos tecnológicos para empresas.",
+        "problem": "¿Tu equipamiento está al día?"
+      },
+      {
+        "id": "auditorias",
+        "icon": "🔍",
+        "title": "Auditorías informáticas",
+        "desc": "Evaluación técnica de sistemas, redes y procesos para mejorar seguridad, rendimiento y toma de decisiones.",
+        "problem": "¿Sabes cómo está tu infraestructura?"
       }
     ],
     "cta": "Ver más →"
@@ -134,8 +133,39 @@
       "Restaurantes y hostelería",
       "Hoteles",
       "Comercios",
+      "Oficinas",
       "Empresas de servicios",
       "Pymes"
+    ]
+  },
+  "whychooseus": {
+    "eyebrow": "¿Por qué elegir Onilusion?",
+    "title": "Tecnología, experiencia y compromiso",
+    "stats": [
+      {
+        "value": "+20",
+        "label": "Años de experiencia"
+      },
+      {
+        "value": "+500",
+        "label": "Clientes satisfechos"
+      },
+      {
+        "value": "+1.000",
+        "label": "Proyectos realizados"
+      },
+      {
+        "value": "100%",
+        "label": "Compromiso"
+      }
+    ],
+    "reasons": [
+      "Personalización real. Sin paquetes cerrados.",
+      "Soporte técnico presencial y remoto.",
+      "Sede en Madrid, cobertura nacional.",
+      "Más de dos décadas de experiencia IT.",
+      "Soluciones adaptadas a cada empresa.",
+      "Socio tecnológico integral para pymes."
     ]
   },
   "cyber": {
@@ -304,7 +334,14 @@
         "Telecomunicaciones",
         "Cloud / Software empresarial",
         "Otro"
-      ]
+      ],
+      "errors": {
+        "name": "Introduce tu nombre (mínimo 2 caracteres).",
+        "email": "Introduce un email válido.",
+        "service": "Selecciona un tipo de servicio.",
+        "message": "Cuéntanos tu caso (mínimo 10 caracteres).",
+        "privacy": "Debes aceptar la política de privacidad."
+      }
     }
   },
   "footer": {
@@ -326,7 +363,8 @@
       "privacy": "Política de privacidad",
       "cookies": "Política de cookies"
     },
-    "copyright": "© 2026 Onilusion S.A. Todos los derechos reservados."
+    "linkedin": "LinkedIn",
+    "copyright": "© 2001–2026 Onilusion S.A. Todos los derechos reservados."
   },
   "cookies": {
     "title": "Utilizamos cookies",
@@ -334,7 +372,14 @@
     "accept": "Aceptar todas",
     "reject": "Rechazar no esenciales",
     "configure": "Configurar",
-    "privacy_link": "Política de cookies"
+    "save": "Guardar preferencias",
+    "privacy_link": "Política de cookies",
+    "pref_technical_title": "Cookies Técnicas",
+    "pref_technical_desc": "Necesarias para el correcto funcionamiento de la web (navegación, idioma, seguridad). No se pueden desactivar.",
+    "pref_analytics_title": "Cookies de Análisis",
+    "pref_analytics_desc": "Nos permiten medir las visitas y analizar las fuentes de tráfico de forma anónima para optimizar la web.",
+    "pref_marketing_title": "Cookies de Personalización",
+    "pref_marketing_desc": "Utilizadas para ofrecerte contenido y publicidad relevante según tus intereses."
   },
   "pages": {
     "services": {
@@ -349,7 +394,6 @@
           "items": [
             "Consultoría informática",
             "Asesoramiento tecnológico",
-            "Auditoría informática",
             "Planificación IT",
             "Optimización de sistemas",
             "Externalización del departamento informático",
@@ -371,26 +415,17 @@
           ]
         },
         {
-          "id": "mantenimiento",
-          "title": "Servicios IT y mantenimiento informático",
-          "desc": "Tu infraestructura siempre operativa con soporte rápido, preventivo y correctivo.",
+          "id": "infraestructura",
+          "title": "Infraestructura y mantenimiento informático",
+          "desc": "Tu infraestructura siempre operativa. Diseñamos, implantamos y mantenemos infraestructuras robustas con soporte rápido, preventivo y correctivo.",
           "items": [
             "Mantenimiento preventivo y correctivo",
             "Soporte remoto",
             "Soporte presencial en Madrid",
             "Gestión de incidencias",
             "Monitorización de sistemas",
-            "Actualización y optimización de equipos"
-          ]
-        },
-        {
-          "id": "infraestructura",
-          "title": "Infraestructura tecnológica",
-          "desc": "Diseñamos e implantamos infraestructuras robustas adaptadas al tamaño y necesidades de tu empresa.",
-          "items": [
             "Instalación y gestión de servidores",
             "Redes empresariales",
-            "Equipos informáticos (portátiles, sobremesa, TPV)",
             "Firewalls y seguridad perimetral",
             "NAS y almacenamiento",
             "Virtualización"
@@ -405,6 +440,7 @@
             "Routers y electrónica de red",
             "Repetidores y redes WiFi profesionales",
             "Antenas",
+            "Redes empresariales",
             "Comunicaciones corporativas"
           ]
         },
@@ -431,6 +467,32 @@
             "APIs e integraciones",
             "Automatización de procesos",
             "Aplicaciones digitales"
+          ]
+        },
+        {
+          "id": "hardware",
+          "title": "Hardware y equipamiento tecnológico",
+          "desc": "Suministro e instalación de equipamiento tecnológico para empresas de todos los tamaños.",
+          "items": [
+            "Ordenadores portátiles y de sobremesa",
+            "Servidores",
+            "Terminales de punto de venta (TPV)",
+            "Pantallas y monitores",
+            "Equipos de red",
+            "Dispositivos tecnológicos para empresas"
+          ]
+        },
+        {
+          "id": "auditorias",
+          "title": "Auditorías informáticas",
+          "desc": "Evaluación técnica completa de sistemas, redes y procesos para mejorar la seguridad, el rendimiento y la toma de decisiones.",
+          "items": [
+            "Auditoría de infraestructura IT",
+            "Evaluación de seguridad",
+            "Análisis de vulnerabilidades",
+            "Revisión de redes y sistemas",
+            "Informe técnico detallado",
+            "Plan de mejoras y recomendaciones"
           ]
         }
       ]
@@ -539,8 +601,8 @@
     }
   },
   "meta": {
-    "home_title": "Empresa IT Madrid — Soluciones tecnológicas para pymes | Onilusion S.A.",
-    "home_desc": "Empresa informática en Madrid con más de 20 años de experiencia. Servicios IT, ciberseguridad, mantenimiento, infraestructura, cloud y desarrollo para pymes y empresas de toda España.",
+    "home_title": "Onilusion S.A. | Consultoría Informática, Ciberseguridad y Servicios IT en Madrid",
+    "home_desc": "Onilusion S.A. ofrece consultoría informática, ciberseguridad, mantenimiento IT, cloud, desarrollo web, software, redes y telecomunicaciones para empresas en Madrid y toda España.",
     "services_title": "Servicios tecnológicos para pymes y empresas en Madrid | Onilusion S.A.",
     "services_desc": "Consultoría IT, ciberseguridad, mantenimiento informático, infraestructura, telecomunicaciones, cloud y desarrollo de software para empresas en Madrid y toda España.",
     "about_title": "Sobre Onilusion — Empresa IT en Madrid desde 2001 | Onilusion S.A.",

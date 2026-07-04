@@ -115,6 +115,12 @@ ul, ol {
   list-style: none;
 }
 
+/* Accesibilidad: foco de navegación por teclado visible y estético */
+:focus-visible {
+  outline: 2px solid var(--lavanda);
+  outline-offset: 4px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   line-height: 1.15;

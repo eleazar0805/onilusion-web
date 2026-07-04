@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { buildMetadata } from '@/lib/seo';
 import Hero from '@/components/sections/Hero';
 import TrustBar from '@/components/sections/TrustBar';
@@ -8,6 +8,7 @@ import Services from '@/components/sections/Services';
 import HowWeWork from '@/components/sections/HowWeWork';
 import Cyber from '@/components/sections/Cyber';
 import Sectors from '@/components/sections/Sectors';
+import WhyChooseUs from '@/components/sections/WhyChooseUs';
 import Partners from '@/components/sections/Partners';
 import Faq from '@/components/sections/Faq';
 import CtaBanner from '@/components/sections/CtaBanner';
@@ -19,7 +20,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 export default function HomePage({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
 
   return (
     <>
@@ -30,8 +31,9 @@ export default function HomePage({ params: { locale } }: Props) {
       <HowWeWork />
       <Cyber locale={locale} />
       <Sectors />
-      <Faq locale={locale} limit={6} />
+      <WhyChooseUs />
       <Partners />
+      <Faq locale={locale} limit={6} />
       <CtaBanner locale={locale} />
     </>
   );

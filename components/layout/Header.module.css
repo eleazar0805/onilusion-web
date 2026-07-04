@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: space-between;
   height: 72px;
-  gap: 32px;
+  gap: 20px;
 }
 
 .logo {
@@ -38,10 +38,12 @@
 .navLink {
   position: relative;
   display: block;
-  padding: 8px 14px;
+  padding: 8px 12px;
   font-size: var(--text-sm);
   font-weight: 500;
   color: var(--plata);
+  /* Los enlaces del menú nunca se parten en dos líneas */
+  white-space: nowrap;
   transition: color var(--t-fast);
 }
 
@@ -49,8 +51,8 @@
 .navLink::after {
   content: '';
   position: absolute;
-  left: 14px;
-  right: 14px;
+  left: 12px;
+  right: 12px;
   bottom: 2px;
   height: 2px;
   background: var(--gradient);

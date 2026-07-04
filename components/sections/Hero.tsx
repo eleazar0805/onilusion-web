@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import { preload } from 'react-dom';
 import Link from 'next/link';
 import Icon from '@/components/ui/Icon';
 import { paths } from '@/lib/site';
@@ -7,6 +8,8 @@ import HeroFade from './HeroFade';
 import styles from './Hero.module.css';
 
 export default async function Hero({ locale }: { locale: string }) {
+  // El póster es el LCP del hero: precargarlo acelera el primer render visual.
+  preload('/videos/hero-poster.jpg', { as: 'image', fetchPriority: 'high' });
   const t = await getTranslations('hero');
 
   const trustItems = [t('trust1'), t('trust2'), t('trust3'), t('trust4')];
@@ -21,7 +24,6 @@ export default async function Hero({ locale }: { locale: string }) {
 
       <div className={`container ${styles.inner}`}>
         <HeroFade className={styles.content}>
-          <span className={`badge ${styles.badge} animate-fade-in-up`}>{t('badge')}</span>
           <h1 className={`${styles.title} animate-fade-in-up animate-delay-100`}>
             {t('h1_part1')}{' '}
             <span className={styles.titleAccent}>{t('h1_part2')}</span>{' '}

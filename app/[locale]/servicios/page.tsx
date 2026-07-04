@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { breadcrumbSchema, servicesSchema } from '@/lib/schema';
@@ -20,15 +20,19 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 const categoryIcons: Record<string, string> = {
   consultoria: 'lightbulb',
   ciberseguridad: 'shield',
-  mantenimiento: 'monitor',
   infraestructura: 'server',
   telecom: 'antenna',
   cloud: 'cloud',
   desarrollo: 'code',
+  hardware: 'laptop',
+  auditorias: 'audit',
+  // legacy
+  mantenimiento: 'monitor',
+  redes: 'network',
 };
 
 export default async function ServicesPage({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = await getTranslations('pages.services');
   const tNav = await getTranslations('nav');
   const categories = (await getTranslations()).raw('pages.services.categories') as {

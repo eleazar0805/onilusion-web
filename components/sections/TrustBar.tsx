@@ -17,14 +17,14 @@ export default async function TrustBar() {
     <section className={styles.bar} aria-label="Cifras de Onilusion">
       <div className="container">
         <Reveal>
-          <dl className={styles.grid}>
+          <div className={styles.grid}>
             {stats.map((s) => (
               <div key={s.label} className={styles.stat}>
-                <dd className={styles.value}><CountUp value={t(s.value)} /></dd>
-                <dt className={styles.label}>{t(s.label)}</dt>
+                <span className={styles.value}><CountUp value={t(s.value)} /></span>
+                <span className={styles.label}>{t(s.label)}</span>
               </div>
             ))}
-          </dl>
+          </div>
         </Reveal>
       </div>
     </section>

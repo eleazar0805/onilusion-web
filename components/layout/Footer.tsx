@@ -18,6 +18,25 @@ export default function Footer() {
               <Logo />
             </Link>
             <p className={styles.desc}>{t('footer.description')}</p>
+            <div className={styles.social}>
+              <a
+                href="https://www.linkedin.com/company/onilusion"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+                aria-label="Onilusion en LinkedIn"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+                LinkedIn
+              </a>
+              <a href={`mailto:${site.email}`} className={styles.socialLink} aria-label={`Email: ${site.email}`}>
+                <Icon name="mail" size={16} />
+                {site.email}
+              </a>
+            </div>
             <div className={styles.contact}>
               <span className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true"><Icon name="pin" size={16} /></span>
@@ -49,7 +68,7 @@ export default function Footer() {
               <ul className={styles.columnLinks}>
                 <li><Link href={`/${locale}/servicios`}>{t('footer.links.services')}</Link></li>
                 <li><Link href={`/${locale}/servicios#ciberseguridad`}>{t('footer.links.cybersecurity')}</Link></li>
-                <li><Link href={`/${locale}/servicios#mantenimiento`}>{t('footer.links.maintenance')}</Link></li>
+                <li><Link href={`/${locale}/servicios#infraestructura`}>{t('footer.links.maintenance')}</Link></li>
                 <li><Link href={`/${locale}/servicios#consultoria`}>{t('footer.links.consulting')}</Link></li>
                 <li><Link href={`/${locale}/servicios#desarrollo`}>{t('footer.links.development')}</Link></li>
               </ul>

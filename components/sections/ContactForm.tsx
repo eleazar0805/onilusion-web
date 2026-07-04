@@ -65,7 +65,7 @@ export default function ContactForm() {
             aria-invalid={!!errors.name}
             {...register('name')}
           />
-          {errors.name && <span className="form-error" role="alert">{t('name')}: 2+</span>}
+          {errors.name && <span className="form-error" role="alert">{t('errors.name')}</span>}
         </div>
         <div className="form-group">
           <label className="form-label" htmlFor="cf-company">{t('company')}</label>
@@ -90,7 +90,7 @@ export default function ContactForm() {
             aria-invalid={!!errors.email}
             {...register('email')}
           />
-          {errors.email && <span className="form-error" role="alert">✕ {t('email')}</span>}
+          {errors.email && <span className="form-error" role="alert">{t('errors.email')}</span>}
         </div>
         <div className="form-group">
           <label className="form-label" htmlFor="cf-phone">{t('phone')}</label>
@@ -121,7 +121,7 @@ export default function ContactForm() {
             <option key={s} value={s}>{s}</option>
           ))}
         </select>
-        {errors.service && <span className="form-error" role="alert">✕ {t('service')}</span>}
+        {errors.service && <span className="form-error" role="alert">{t('errors.service')}</span>}
       </div>
 
       <div className="form-group">
@@ -133,7 +133,7 @@ export default function ContactForm() {
           aria-invalid={!!errors.message}
           {...register('message')}
         />
-        {errors.message && <span className="form-error" role="alert">✕ {t('message')} (10+)</span>}
+        {errors.message && <span className="form-error" role="alert">{t('errors.message')}</span>}
       </div>
 
       {/* Honeypot anti-spam: oculto para humanos */}
@@ -157,7 +157,7 @@ export default function ContactForm() {
           *
         </span>
       </label>
-      {errors.privacy && <span className="form-error" role="alert">✕</span>}
+      {errors.privacy && <span className="form-error" role="alert">{t('errors.privacy')}</span>}
 
       {status === 'error' && (
         <p className={styles.errorBox} role="alert">{t('error')}</p>

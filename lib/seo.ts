@@ -48,9 +48,10 @@ export async function buildMetadata(locale: string, page: PageKey, path: string 
 }
 
 /** Metadata simple para páginas legales (título propio, sin OG específico). */
-export function legalMetadata(locale: string, title: string, path: string): Metadata {
+export function legalMetadata(locale: string, title: string, path: string, description?: string): Metadata {
   return {
     title: `${title} | ${site.name}`,
+    ...(description ? { description } : {}),
     alternates: {
       canonical: localeUrl(locale, path),
       languages: {

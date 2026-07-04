@@ -23,7 +23,6 @@ export function organizationSchema(locale: string) {
         logo: `${site.url}/${site.defaultLocale}/opengraph-image`,
         email: site.email,
         telephone: site.phoneIntl,
-        vatID: site.cif,
         foundingDate: site.foundingDate,
         address: orgAddress,
         contactPoint: [

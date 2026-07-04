@@ -130,6 +130,28 @@ const paths: Record<string, ReactNode> = {
       <path d="M10 21v-3h.01" />
     </>
   ),
+  laptop: (
+    <>
+      <rect x="3" y="5" width="18" height="12" rx="2" />
+      <path d="M1 19h22" />
+      <path d="M8 19l2-2h4l2 2" />
+    </>
+  ),
+  cpu: (
+    <>
+      <rect x="7" y="7" width="10" height="10" rx="1.5" />
+      <path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3" />
+    </>
+  ),
+  audit: (
+    <>
+      <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" />
+      <rect x="9" y="3" width="6" height="4" rx="1" />
+      <path d="M9 12h6M9 15h4" />
+      <circle cx="17" cy="18" r="3" />
+      <path d="M19.5 20.5L21 22" />
+    </>
+  ),
 };
 
 export type IconName = keyof typeof paths;

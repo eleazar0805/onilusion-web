@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
@@ -21,7 +21,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 const valueIcons = ['handshake', 'target', 'lock', 'star'];
 
 export default async function AboutPage({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = await getTranslations('pages.about');
   const tNav = await getTranslations('nav');
   const tAll = await getTranslations();

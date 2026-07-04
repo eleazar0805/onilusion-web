@@ -8,7 +8,6 @@
     "home": "Accueil"
   },
   "hero": {
-    "badge": "Depuis 2001 · Madrid · Espagne",
     "h1_part1": "Solutions technologiques",
     "h1_part2": "sécurisées, proches et adaptées",
     "h1_part3": "à votre entreprise",
@@ -35,60 +34,60 @@
     "subtitle": "Un seul partenaire technologique pour tous vos besoins IT",
     "items": [
       {
-        "id": "ciberseguridad",
-        "icon": "🔐",
-        "title": "Cybersécurité",
-        "desc": "Audits, protection des réseaux, systèmes et données. Stratégie préventive contre les menaces et ransomwares.",
-        "problem": "Votre entreprise est-elle vraiment protégée?"
-      },
-      {
-        "id": "mantenimiento",
-        "icon": "🖥",
-        "title": "Maintenance informatique",
-        "desc": "Support à distance et sur site, maintenance préventive et corrective, gestion des incidents et surveillance.",
-        "problem": "Avez-vous du support quand vous en avez besoin?"
-      },
-      {
         "id": "consultoria",
         "icon": "💡",
-        "title": "Conseil IT",
-        "desc": "Conseil technologique, planification IT, audits et externalisation du département informatique.",
+        "title": "Conseil IT et externalisation",
+        "desc": "Conception, déploiement et optimisation de systèmes informatiques. Externalisation IT adaptée à votre entreprise.",
         "problem": "Votre technologie travaille-t-elle pour vous?"
       },
       {
         "id": "infraestructura",
         "icon": "🏗",
-        "title": "Infrastructure technologique",
-        "desc": "Serveurs, réseaux d'entreprise, équipements informatiques, pare-feu et virtualisation.",
+        "title": "Infrastructure et maintenance",
+        "desc": "Gestion des réseaux, serveurs et équipements. Support technique sur site et à distance pour maintenir votre activité.",
         "problem": "Votre infrastructure est-elle prête?"
       },
       {
-        "id": "cloud",
-        "icon": "☁",
-        "title": "Cloud et logiciels d'entreprise",
-        "desc": "Migration vers le cloud, ERP en ligne, logiciels de gestion et mise en œuvre de solutions numériques.",
-        "problem": "Exploitez-vous le potentiel du cloud?"
+        "id": "ciberseguridad",
+        "icon": "🔐",
+        "title": "Cybersécurité",
+        "desc": "Protection des systèmes, données et réseaux. Audits de sécurité et solutions avancées contre les menaces.",
+        "problem": "Votre entreprise est-elle vraiment protégée?"
       },
       {
         "id": "desarrollo",
         "icon": "💻",
-        "title": "Développement web et logiciel",
-        "desc": "Logiciels sur mesure, développement web, API, intégrations et automatisation des processus.",
+        "title": "Développement et digitalisation",
+        "desc": "Développement web, logiciels sur mesure, applications numériques, API et intégrations pour optimiser vos processus.",
         "problem": "Votre logiciel freine-t-il votre croissance?"
+      },
+      {
+        "id": "cloud",
+        "icon": "☁",
+        "title": "Cloud et ERP en ligne",
+        "desc": "Migration vers le cloud, déploiement de logiciels d'entreprise et solutions cloud pour améliorer la gestion.",
+        "problem": "Exploitez-vous le potentiel du cloud?"
       },
       {
         "id": "telecom",
         "icon": "📡",
-        "title": "Télécommunications",
-        "desc": "Téléphonie IP, routeurs, répéteurs WiFi, antennes et électronique réseau pour entreprises.",
+        "title": "Télécoms et réseaux",
+        "desc": "Téléphonie IP, routeurs, répéteurs WiFi, antennes et réseaux d'entreprise pour garantir connectivité et performance.",
         "problem": "Votre connectivité est-elle professionnelle?"
       },
       {
-        "id": "redes",
-        "icon": "🌐",
-        "title": "Réseaux d'entreprise",
-        "desc": "Conception, installation et maintenance de réseaux d'entreprise sécurisés et évolutifs.",
-        "problem": "Votre réseau supporte-t-il votre activité?"
+        "id": "hardware",
+        "icon": "🖥",
+        "title": "Matériel informatique",
+        "desc": "Fourniture d'ordinateurs, serveurs, terminaux de paiement, écrans et équipements technologiques pour entreprises.",
+        "problem": "Votre matériel est-il à jour?"
+      },
+      {
+        "id": "auditorias",
+        "icon": "🔍",
+        "title": "Audits informatiques",
+        "desc": "Évaluation technique des systèmes, réseaux et processus pour améliorer la sécurité, la performance et la prise de décision.",
+        "problem": "Connaissez-vous l'état de votre infrastructure?"
       }
     ],
     "cta": "En savoir plus →"
@@ -125,17 +124,48 @@
     ]
   },
   "sectors": {
-    "title": "Solutions pour les entreprises de tous les secteurs",
-    "subtitle": "Chaque secteur a des défis technologiques différents. C'est pourquoi nous adaptons chaque solution au fonctionnement réel de chaque entreprise.",
+    "title": "Solutions pour entreprises de tous les secteurs",
+    "subtitle": "Chaque secteur a ses propres défis technologiques. C'est pourquoi nous adaptons chaque solution au fonctionnement réel de chaque entreprise.",
     "items": [
-      "Établissements d'enseignement",
+      "Centres éducatifs",
       "Cabinets d'avocats",
       "Agences",
       "Restaurants et hôtellerie",
       "Hôtels",
-      "Commerce de détail",
+      "Commerce",
+      "Bureaux",
       "Entreprises de services",
       "PME"
+    ]
+  },
+  "whychooseus": {
+    "eyebrow": "Pourquoi choisir Onilusion ?",
+    "title": "Technologie, expérience et engagement",
+    "stats": [
+      {
+        "value": "+20",
+        "label": "Années d'expérience"
+      },
+      {
+        "value": "+500",
+        "label": "Clients satisfaits"
+      },
+      {
+        "value": "+1 000",
+        "label": "Projets réalisés"
+      },
+      {
+        "value": "100 %",
+        "label": "Engagement"
+      }
+    ],
+    "reasons": [
+      "Personnalisation réelle. Sans offres prépackagées.",
+      "Support technique sur site et à distance.",
+      "Siège à Madrid, couverture nationale.",
+      "Plus de deux décennies d'expérience IT.",
+      "Solutions adaptées à chaque entreprise.",
+      "Partenaire technologique intégral pour les PME."
     ]
   },
   "cyber": {
@@ -304,7 +334,14 @@
         "Télécommunications",
         "Cloud / Logiciels d'entreprise",
         "Autre"
-      ]
+      ],
+      "errors": {
+        "name": "Saisissez votre nom (2 caractères minimum).",
+        "email": "Saisissez une adresse email valide.",
+        "service": "Sélectionnez un type de service.",
+        "message": "Décrivez votre besoin (10 caractères minimum).",
+        "privacy": "Vous devez accepter la politique de confidentialité."
+      }
     }
   },
   "footer": {
@@ -326,7 +363,8 @@
       "privacy": "Politique de confidentialité",
       "cookies": "Politique de cookies"
     },
-    "copyright": "© 2026 Onilusion S.A. Tous droits réservés."
+    "linkedin": "LinkedIn",
+    "copyright": "© 2001–2026 Onilusion S.A. Tous droits réservés."
   },
   "cookies": {
     "title": "Nous utilisons des cookies",
@@ -334,7 +372,14 @@
     "accept": "Tout accepter",
     "reject": "Refuser les non-essentiels",
     "configure": "Configurer",
-    "privacy_link": "Politique de cookies"
+    "save": "Enregistrer les préférences",
+    "privacy_link": "Politique de cookies",
+    "pref_technical_title": "Cookies Techniques",
+    "pref_technical_desc": "Nécessaires au bon fonctionnement du site (navigation, langue, sécurité). Ne peuvent pas être désactivés.",
+    "pref_analytics_title": "Cookies d'Analyse",
+    "pref_analytics_desc": "Nous permettent de mesurer les visites et d'analyser les sources de trafic de manière anonyme pour optimiser le site.",
+    "pref_marketing_title": "Cookies de Personnalisation",
+    "pref_marketing_desc": "Utilisés pour vous proposer du contenu et des publicités pertinents selon vos intérêts."
   },
   "pages": {
     "services": {
@@ -349,7 +394,6 @@
           "items": [
             "Conseil informatique",
             "Accompagnement technologique",
-            "Audit informatique",
             "Planification IT",
             "Optimisation des systèmes",
             "Externalisation du service informatique",
@@ -371,26 +415,17 @@
           ]
         },
         {
-          "id": "mantenimiento",
-          "title": "Services IT et maintenance informatique",
-          "desc": "Votre infrastructure toujours opérationnelle grâce à un support rapide, préventif et correctif.",
+          "id": "infraestructura",
+          "title": "Infrastructure et maintenance informatique",
+          "desc": "Votre infrastructure toujours opérationnelle. Nous concevons, déployons et maintenons des infrastructures robustes avec un support rapide, préventif et correctif.",
           "items": [
             "Maintenance préventive et corrective",
             "Support à distance",
             "Support sur site à Madrid",
             "Gestion des incidents",
             "Supervision des systèmes",
-            "Mise à jour et optimisation du matériel"
-          ]
-        },
-        {
-          "id": "infraestructura",
-          "title": "Infrastructure technologique",
-          "desc": "Nous concevons et déployons des infrastructures robustes adaptées à la taille et aux besoins de votre entreprise.",
-          "items": [
             "Installation et gestion de serveurs",
             "Réseaux d'entreprise",
-            "Équipements informatiques (portables, fixes, TPV)",
             "Pare-feu et sécurité périmétrique",
             "NAS et stockage",
             "Virtualisation"
@@ -405,6 +440,7 @@
             "Routeurs et électronique réseau",
             "Réseaux WiFi professionnels et répéteurs",
             "Antennes",
+            "Réseaux d'entreprise",
             "Communications d'entreprise"
           ]
         },
@@ -431,6 +467,32 @@
             "API et intégrations",
             "Automatisation des processus",
             "Applications numériques"
+          ]
+        },
+        {
+          "id": "hardware",
+          "title": "Matériel et équipement technologique",
+          "desc": "Fourniture et installation d'équipements technologiques pour les entreprises de toutes tailles.",
+          "items": [
+            "Ordinateurs portables et fixes",
+            "Serveurs",
+            "Terminaux de point de vente (TPV)",
+            "Écrans et moniteurs",
+            "Équipements réseau",
+            "Dispositifs technologiques pour entreprises"
+          ]
+        },
+        {
+          "id": "auditorias",
+          "title": "Audits informatiques",
+          "desc": "Évaluation technique complète des systèmes, réseaux et processus pour améliorer la sécurité, la performance et la prise de décision.",
+          "items": [
+            "Audit d'infrastructure IT",
+            "Évaluation de la sécurité",
+            "Analyse des vulnérabilités",
+            "Revue des réseaux et systèmes",
+            "Rapport technique détaillé",
+            "Plan d'amélioration et recommandations"
           ]
         }
       ]
@@ -539,8 +601,8 @@
     }
   },
   "meta": {
-    "home_title": "Entreprise IT Madrid — Solutions technologiques pour PME | Onilusion S.A.",
-    "home_desc": "Entreprise informatique à Madrid avec plus de 20 ans d'expérience. Services IT, cybersécurité, maintenance, infrastructure, cloud et développement pour PME en Espagne.",
+    "home_title": "Onilusion S.A. | Conseil IT, Cybersécurité & Services IT à Madrid",
+    "home_desc": "Onilusion S.A. propose du conseil IT, cybersécurité, maintenance IT, cloud, développement web et logiciel, réseaux et télécommunications pour les entreprises à Madrid et en Espagne.",
     "services_title": "Services technologiques pour entreprises à Madrid | Onilusion S.A.",
     "services_desc": "Conseil IT, cybersécurité, maintenance informatique, infrastructure, télécommunications, cloud et développement logiciel pour entreprises à Madrid et en Espagne.",
     "about_title": "À propos d'Onilusion — Entreprise IT à Madrid depuis 2001 | Onilusion S.A.",

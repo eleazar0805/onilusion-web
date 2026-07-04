@@ -8,7 +8,6 @@
     "home": "Home"
   },
   "hero": {
-    "badge": "Since 2001 · Madrid · Spain",
     "h1_part1": "Secure, close and tailored",
     "h1_part2": "technology solutions",
     "h1_part3": "for your business",
@@ -35,60 +34,60 @@
     "subtitle": "A single technology partner for all your IT needs",
     "items": [
       {
-        "id": "ciberseguridad",
-        "icon": "🔐",
-        "title": "Cybersecurity",
-        "desc": "Audits, protection of networks, systems and data. Preventive strategy against threats and ransomware.",
-        "problem": "Is your company really protected?"
-      },
-      {
-        "id": "mantenimiento",
-        "icon": "🖥",
-        "title": "IT Maintenance",
-        "desc": "Remote and on-site support, preventive and corrective maintenance, incident management and monitoring.",
-        "problem": "Do you have support when you need it?"
-      },
-      {
         "id": "consultoria",
         "icon": "💡",
-        "title": "IT Consulting",
-        "desc": "Technology advisory, IT planning, audits and outsourcing of the IT department.",
+        "title": "IT Consulting & Outsourcing",
+        "desc": "Design, implementation and optimisation of IT systems. IT outsourcing tailored to your business.",
         "problem": "Does your technology work for you?"
       },
       {
         "id": "infraestructura",
         "icon": "🏗",
-        "title": "Technology Infrastructure",
-        "desc": "Servers, business networks, computer equipment, firewalls and virtualization.",
+        "title": "Infrastructure & Maintenance",
+        "desc": "Network, server and equipment management. On-site and remote technical support to keep your business running.",
         "problem": "Is your infrastructure ready?"
       },
       {
-        "id": "cloud",
-        "icon": "☁",
-        "title": "Cloud & Business Software",
-        "desc": "Cloud migration, online ERP, management software and digital solution implementation.",
-        "problem": "Are you leveraging cloud potential?"
+        "id": "ciberseguridad",
+        "icon": "🔐",
+        "title": "Cybersecurity",
+        "desc": "Protection of systems, data and networks. Security audits and advanced solutions against threats.",
+        "problem": "Is your company really protected?"
       },
       {
         "id": "desarrollo",
         "icon": "💻",
-        "title": "Web & Software Development",
-        "desc": "Custom software, web development, APIs, integrations and process automation.",
-        "problem": "Does your software limit your growth?"
+        "title": "Development & Digitalisation",
+        "desc": "Web development, custom software, digital applications, APIs and integrations to streamline your processes.",
+        "problem": "Is your software holding you back?"
+      },
+      {
+        "id": "cloud",
+        "icon": "☁",
+        "title": "Cloud & Online ERP",
+        "desc": "Cloud migration, enterprise software implementation and cloud solutions to improve business management.",
+        "problem": "Are you using the cloud's full potential?"
       },
       {
         "id": "telecom",
         "icon": "📡",
-        "title": "Telecommunications",
-        "desc": "IP telephony, routers, WiFi repeaters, antennas and network electronics for businesses.",
+        "title": "Telecoms & Networks",
+        "desc": "IP telephony, routers, WiFi repeaters, antennas and business networks to guarantee connectivity and performance.",
         "problem": "Is your connectivity professional?"
       },
       {
-        "id": "redes",
-        "icon": "🌐",
-        "title": "Business Networks",
-        "desc": "Design, installation and maintenance of secure and scalable corporate networks.",
-        "problem": "Does your network support your business?"
+        "id": "hardware",
+        "icon": "🖥",
+        "title": "Technology Equipment",
+        "desc": "Supply of computers, servers, POS terminals, screens and technology equipment for businesses.",
+        "problem": "Is your equipment up to date?"
+      },
+      {
+        "id": "auditorias",
+        "icon": "🔍",
+        "title": "IT Audits",
+        "desc": "Technical evaluation of systems, networks and processes to improve security, performance and decision-making.",
+        "problem": "Do you know the state of your infrastructure?"
       }
     ],
     "cta": "Learn more →"
@@ -126,16 +125,47 @@
   },
   "sectors": {
     "title": "Solutions for businesses across all sectors",
-    "subtitle": "Each sector has different technology challenges. That's why we adapt every solution to the real workings of each business.",
+    "subtitle": "Each sector faces different technology challenges. That's why we tailor each solution to the real workings of each business.",
     "items": [
-      "Educational centers",
+      "Education centres",
       "Law firms",
       "Agencies",
       "Restaurants & hospitality",
       "Hotels",
       "Retail",
-      "Service companies",
+      "Offices",
+      "Service businesses",
       "SMEs"
+    ]
+  },
+  "whychooseus": {
+    "eyebrow": "Why choose Onilusion?",
+    "title": "Technology, experience and commitment",
+    "stats": [
+      {
+        "value": "+20",
+        "label": "Years of experience"
+      },
+      {
+        "value": "+500",
+        "label": "Satisfied clients"
+      },
+      {
+        "value": "+1,000",
+        "label": "Projects completed"
+      },
+      {
+        "value": "100%",
+        "label": "Commitment"
+      }
+    ],
+    "reasons": [
+      "Real personalisation. No off-the-shelf packages.",
+      "On-site and remote technical support.",
+      "Based in Madrid, national coverage.",
+      "Over two decades of IT experience.",
+      "Solutions tailored to each business.",
+      "Integral technology partner for SMEs."
     ]
   },
   "cyber": {
@@ -304,7 +334,14 @@
         "Telecommunications",
         "Cloud / Business Software",
         "Other"
-      ]
+      ],
+      "errors": {
+        "name": "Enter your name (at least 2 characters).",
+        "email": "Enter a valid email address.",
+        "service": "Select a type of service.",
+        "message": "Tell us about your case (at least 10 characters).",
+        "privacy": "You must accept the privacy policy."
+      }
     }
   },
   "footer": {
@@ -326,7 +363,8 @@
       "privacy": "Privacy Policy",
       "cookies": "Cookie Policy"
     },
-    "copyright": "© 2026 Onilusion S.A. All rights reserved."
+    "linkedin": "LinkedIn",
+    "copyright": "© 2001–2026 Onilusion S.A. All rights reserved."
   },
   "cookies": {
     "title": "We use cookies",
@@ -334,7 +372,14 @@
     "accept": "Accept all",
     "reject": "Reject non-essential",
     "configure": "Configure",
-    "privacy_link": "Cookie Policy"
+    "save": "Save preferences",
+    "privacy_link": "Cookie Policy",
+    "pref_technical_title": "Technical Cookies",
+    "pref_technical_desc": "Necessary for the website to function properly (navigation, language, security). Cannot be disabled.",
+    "pref_analytics_title": "Analytics Cookies",
+    "pref_analytics_desc": "Allow us to measure traffic and analyze traffic sources anonymously to optimize the website.",
+    "pref_marketing_title": "Personalization Cookies",
+    "pref_marketing_desc": "Used to deliver relevant content and advertising based on your interests."
   },
   "pages": {
     "services": {
@@ -349,7 +394,6 @@
           "items": [
             "IT consulting",
             "Technology advisory",
-            "IT audit",
             "IT planning",
             "Systems optimisation",
             "Outsourced IT department",
@@ -371,26 +415,17 @@
           ]
         },
         {
-          "id": "mantenimiento",
-          "title": "IT services & maintenance",
-          "desc": "Keep your infrastructure running with fast, preventive and corrective support.",
+          "id": "infraestructura",
+          "title": "IT infrastructure & maintenance",
+          "desc": "Your infrastructure always up and running. We design, deploy and maintain robust infrastructures with fast, preventive and corrective support.",
           "items": [
             "Preventive and corrective maintenance",
             "Remote support",
             "On-site support in Madrid",
             "Incident management",
             "Systems monitoring",
-            "Hardware updates and optimisation"
-          ]
-        },
-        {
-          "id": "infraestructura",
-          "title": "Technology infrastructure",
-          "desc": "We design and deploy robust infrastructure adapted to your company's size and needs.",
-          "items": [
             "Server installation and management",
             "Business networks",
-            "IT equipment (laptops, desktops, POS)",
             "Firewalls and perimeter security",
             "NAS and storage",
             "Virtualisation"
@@ -405,6 +440,7 @@
             "Routers and network electronics",
             "Professional WiFi networks and repeaters",
             "Antennas",
+            "Business networks",
             "Corporate communications"
           ]
         },
@@ -431,6 +467,32 @@
             "APIs and integrations",
             "Process automation",
             "Digital applications"
+          ]
+        },
+        {
+          "id": "hardware",
+          "title": "Hardware & technology equipment",
+          "desc": "Supply and installation of technology equipment for businesses of all sizes.",
+          "items": [
+            "Laptops and desktop computers",
+            "Servers",
+            "Point-of-sale terminals (POS)",
+            "Screens and monitors",
+            "Network equipment",
+            "Technology devices for business"
+          ]
+        },
+        {
+          "id": "auditorias",
+          "title": "IT audits",
+          "desc": "Complete technical assessment of systems, networks and processes to improve security, performance and decision-making.",
+          "items": [
+            "IT infrastructure audit",
+            "Security assessment",
+            "Vulnerability analysis",
+            "Network and systems review",
+            "Detailed technical report",
+            "Improvement plan and recommendations"
           ]
         }
       ]
@@ -539,8 +601,8 @@
     }
   },
   "meta": {
-    "home_title": "IT Company Madrid — Technology Solutions for SMEs | Onilusion S.A.",
-    "home_desc": "IT company in Madrid with over 20 years of experience. IT services, cybersecurity, maintenance, infrastructure, cloud and development for SMEs across Spain.",
+    "home_title": "Onilusion S.A. | IT Consulting, Cybersecurity & IT Services in Madrid",
+    "home_desc": "Onilusion S.A. offers IT consulting, cybersecurity, IT maintenance, cloud, web & software development, networks & telecom for businesses in Madrid and across Spain.",
     "services_title": "Technology Services for SMEs in Madrid | Onilusion S.A.",
     "services_desc": "IT consulting, cybersecurity, IT maintenance, infrastructure, telecommunications, cloud and software development for businesses in Madrid and across Spain.",
     "about_title": "About Onilusion — IT Company in Madrid since 2001 | Onilusion S.A.",

@@ -1,89 +1,138 @@
-# Web corporativa — Onilusion S.A.
+# Onilusion S.A. — Web Corporativa
 
-Web corporativa premium de **Onilusion S.A.**, empresa tecnológica española con sede en Madrid: consultoría informática, ciberseguridad, infraestructura, telecomunicaciones, cloud y desarrollo para pymes y empresas de toda España.
+Sitio web corporativo de **Onilusion S.A.**, empresa tecnológica española con sede en Madrid y cobertura nacional.
 
-## Stack
+Construido con **Next.js 14**, **next-intl** (ES / EN / FR), **TypeScript** y **CSS Modules**.
 
-- **Next.js 14** (App Router) + **TypeScript**
-- **next-intl** — internacionalización ES / EN / FR (ES por defecto, prefijo de idioma en URL)
-- **CSS Modules** + design tokens (sin frameworks CSS)
-- **react-hook-form + zod** — formulario de contacto con validación compartida cliente/servidor
-- **nodemailer** — envío del formulario vía SMTP (solo servidor)
+---
+
+## Requisitos
+
+- Node.js ≥ 18
+- npm ≥ 9
+
+---
+
+## Instalación y desarrollo local
+
+```bash
+# Instalar dependencias
+cd onilusion-web
+npm install
+
+# Variables de entorno
+cp .env.example .env.local
+# Editar .env.local con las credenciales de email
+
+# Servidor de desarrollo (http://localhost:3000)
+npm run dev
+```
+
+---
+
+## Variables de entorno
+
+Crea `.env.local` a partir de `.env.example`:
+
+| Variable | Descripción |
+|---|---|
+| `SMTP_HOST` | Servidor SMTP para el formulario de contacto |
+| `SMTP_PORT` | Puerto SMTP (ej. 587) |
+| `SMTP_USER` | Usuario del correo saliente |
+| `SMTP_PASS` | Contraseña del correo saliente |
+| `SMTP_FROM` | Remitente (ej. `noreply@onilusion.com`) |
+| `CONTACT_EMAIL` | Receptor de formularios (`info@onilusion.com`) |
+
+> ⚠️ **Nunca subas `.env.local` a Git** — está excluido en `.gitignore`.
+
+---
+
+## Scripts
+
+```bash
+npm run dev      # Desarrollo con hot-reload
+npm run build    # Build de producción
+npm run start    # Servir el build
+npm run lint     # ESLint
+```
+
+---
 
 ## Estructura
 
 ```
-app/
-  [locale]/            Páginas por idioma (es/en/fr)
-    page.tsx           Home (hero con vídeo, servicios, ciberseguridad, FAQ…)
-    servicios/         Catálogo completo de servicios
-    sobre-nosotros/    Misión, diferenciación y valores
-    preguntas-frecuentes/
-    contacto/          Formulario + datos de contacto
-    aviso-legal/  politica-privacidad/  politica-cookies/
-    layout.tsx         Layout raíz: fuentes, Header/Footer, JSON-LD, cookies
-    opengraph-image.tsx  Imagen OG generada (next/og)
-  api/contact/         API del formulario (validación, honeypot, rate limit)
-  sitemap.ts  robots.ts  icon.svg
-components/
-  layout/              Header, Footer, CookieBanner
-  sections/            Secciones de página
-  ui/                  Logo, iconos, Reveal (scroll), JSON-LD
-i18n/  middleware.ts    Enrutado de idiomas (next-intl)
-messages/              es.json · en.json · fr.json (todos los textos)
-lib/                   Datos corporativos, SEO, Schema.org, esquema del formulario
-public/videos/hero.mp4 Vídeo del hero
-styles/globals.css     Design tokens + utilidades
+onilusion-web/
+├── app/[locale]/          # Rutas ES/EN/FR
+│   ├── page.tsx           # Home
+│   ├── layout.tsx         # Layout raíz
+│   ├── servicios/
+│   ├── sobre-nosotros/
+│   ├── contacto/
+│   ├── preguntas-frecuentes/
+│   └── aviso-legal / politica-*/
+├── app/api/contact/       # API route del formulario
+├── components/
+│   ├── layout/            # Header, Footer, CookieBanner
+│   ├── sections/          # Hero, Services, Cyber, WhyChooseUs…
+│   └── ui/                # Icon, Logo, Reveal, CountUp, JsonLd
+├── lib/
+│   ├── site.ts            # Datos corporativos (fuente única de verdad)
+│   ├── schema.ts          # Schema.org JSON-LD
+│   ├── seo.ts             # Metadata por página
+│   └── contact-schema.ts  # Validación Zod del formulario
+├── messages/
+│   ├── es.json            # Español (idioma principal)
+│   ├── en.json            # Inglés
+│   └── fr.json            # Francés
+├── public/videos/
+│   ├── hero.mp4           # Vídeo de fondo del hero
+│   └── hero-poster.jpg    # Póster de fallback
+└── styles/globals.css     # Design tokens y utilidades
 ```
 
-## Ejecutar en local
-
-Requiere **Node.js 18.17+** (recomendado 20 LTS).
-
-```bash
-npm install
-npm run dev        # http://localhost:3000 → redirige a /es
-```
-
-## Build de producción
-
-```bash
-npm run build
-npm start
-```
-
-## Formulario de contacto
-
-La API (`/api/contact`) valida con zod, incluye honeypot anti-spam, rate limit por IP y neutralización de cabeceras. Para que envíe emails, copia `.env.example` a `.env.local` y rellena las variables SMTP. **Sin SMTP configurado**, la API registra la solicitud en logs del servidor y responde OK (útil en desarrollo).
-
-Las variables de entorno solo se usan en servidor: ninguna clave llega al navegador.
+---
 
 ## Despliegue
 
-Cualquier hosting con soporte Node/Next.js:
+### Vercel (recomendado)
 
-- **Vercel**: importar el repo y desplegar (cero configuración). Añadir las variables SMTP en *Project Settings → Environment Variables*.
-- **Servidor propio / VPS**: `npm run build && npm start` detrás de un proxy (Nginx/Caddy) con HTTPS.
-- **Cloudflare** delante como CDN/WAF recomendado: la cabecera `cf-connecting-ip` ya se usa para el rate limit.
+1. Importa el repositorio en [vercel.com](https://vercel.com).
+2. Añade las variables de entorno en **Settings → Environment Variables**.
+3. Conecta `onilusion.com` en **Settings → Domains**.
 
-Las cabeceras de seguridad (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy) se emiten desde `next.config.ts`.
+### VPS / Node.js
 
-## SEO
+```bash
+npm run build && npm run start
+```
 
-- Metadata por página e idioma con canonical + hreflang (es/en/fr/x-default)
-- Open Graph y Twitter Cards; imagen OG generada con `next/og`
-- Schema.org JSON-LD: Organization, ProfessionalService, Service/OfferCatalog, FAQPage, BreadcrumbList, ContactPoint
-- `sitemap.xml` y `robots.txt` generados por Next
-- Un único H1 por página, jerarquía semántica de encabezados, alt/aria en medios
+Configura Nginx como proxy inverso hacia el puerto 3000.
 
-Al publicar: dar de alta la propiedad en **Google Search Console** y enviar `https://www.onilusion.com/sitemap.xml`. Para analítica (GA4), añadir el script solo tras consentimiento del banner de cookies.
+### Cloudflare
 
-## Idiomas
+Coloca Cloudflare delante para CDN, protección DDoS y SSL.  
+Los security headers ya están configurados en `next.config.mjs`.
 
-Español es el idioma por defecto (`/es`). Todos los textos viven en `messages/*.json`; para ajustar una traducción basta editar el JSON correspondiente. Las rutas usan slugs en español en todos los idiomas (URLs estables y limpias).
+---
 
-## Accesibilidad y rendimiento
+## SEO incluido
 
-- HTML semántico, focus visible, navegación por teclado, `prefers-reduced-motion` respetado (incluido el vídeo del hero)
-- Fuentes optimizadas con `next/font` (sin peticiones de render bloqueantes)
-- Animaciones CSS ligeras con IntersectionObserver; JavaScript mínimo
+- Title, description y canonical por página e idioma.
+- hreflang ES / EN / FR.
+- Open Graph + Twitter Cards.
+- Schema.org: Organization, ProfessionalService, OfferCatalog, FAQPage, BreadcrumbList.
+- Sitemap en `/sitemap.xml` · Robots en `/robots.txt`.
+
+---
+
+## Empresa
+
+**Onilusion S.A.**  
+CIF: A82874603  
+Calle Doctor Esquerdo, 105 · 28007 Madrid · España  
+📞 914 009 634 · 💬 625 622 127  
+✉️ info@onilusion.com · 🌐 www.onilusion.com
+
+---
+
+*© 2001–2026 Onilusion S.A. Todos los derechos reservados.*

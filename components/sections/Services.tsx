@@ -8,13 +8,16 @@ import { paths } from '@/lib/site';
 import styles from './Services.module.css';
 
 const serviceIcons: Record<string, string> = {
-  ciberseguridad: 'shield',
-  mantenimiento: 'monitor',
   consultoria: 'lightbulb',
   infraestructura: 'server',
-  cloud: 'cloud',
+  ciberseguridad: 'shield',
   desarrollo: 'code',
+  cloud: 'cloud',
   telecom: 'antenna',
+  hardware: 'laptop',
+  auditorias: 'audit',
+  // legacy fallbacks
+  mantenimiento: 'monitor',
   redes: 'network',
 };
 

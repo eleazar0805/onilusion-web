@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { legalMetadata } from '@/lib/seo';
 import { paths } from '@/lib/site';
 import LegalPage from '@/components/sections/LegalPage';
@@ -12,7 +12,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
 }
 
 export default async function LegalNoticePage({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = await getTranslations('pages.legal');
   const sections = (await getTranslations()).raw('pages.legal.sections') as {
     h: string;

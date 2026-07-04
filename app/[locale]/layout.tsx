@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Inter, Sora } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { site } from '@/lib/site';
 import { organizationSchema } from '@/lib/schema';
@@ -52,14 +52,22 @@ export default async function LocaleLayout({
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const messages = await getMessages();
+  // Al cliente solo viajan los textos que usan los componentes 'use client'
+  // (Header, CookieBanner, ContactForm): menos payload y sin datos legales
+  // (p. ej. el CIF) incrustados en el HTML de las páginas comerciales.
+  const clientMessages = {
+    nav: messages.nav,
+    cookies: messages.cookies,
+    contact: messages.contact,
+  } as typeof messages;
 
   return (
     <html lang={locale} className={`${sora.variable} ${inter.variable}`}>
       <body>
         <JsonLd data={organizationSchema(locale)} />
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <a href="#contenido" className="skip-link">
             {locale === 'en' ? 'Skip to content' : locale === 'fr' ? 'Aller au contenu' : 'Saltar al contenido'}
           </a>

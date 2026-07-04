@@ -30,7 +30,7 @@ export default async function Faq({ locale, limit, showHeader = true }: FaqProps
         )}
 
         <Reveal delay={100}>
-          <FaqAccordion items={items} />
+          <FaqAccordion items={items} headingLevel={showHeader ? 'h3' : 'h2'} />
         </Reveal>
 
         <Reveal delay={150} className={styles.footerCta}>
