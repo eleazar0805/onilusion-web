@@ -257,8 +257,20 @@
   color: var(--blanco);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .phone span { display: none; }
+}
+
+/* Rango intermedio de escritorio: compactar para que los 5 enlaces,
+   el idioma y el CTA entren sin comprimirse ni partirse */
+@media (min-width: 901px) and (max-width: 1120px) {
+  .nav { gap: 16px; }
+  .actions { gap: 10px; }
+  .navLinks { gap: 0; }
+  .navLink { padding: 8px 8px; font-size: 0.8rem; }
+  .navLink::after { left: 8px; right: 8px; }
+  .phone { display: none; }
+  .whatsapp { display: none; }
 }
 
 @media (max-width: 900px) {
