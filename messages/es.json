@@ -361,7 +361,8 @@
       "contact": "Contacto",
       "legal": "Aviso legal",
       "privacy": "Política de privacidad",
-      "cookies": "Política de cookies"
+      "cookies": "Política de cookies",
+      "cookie_prefs": "Preferencias de cookies"
     },
     "linkedin": "LinkedIn",
     "copyright": "© 2001–2026 Onilusion S.A. Todos los derechos reservados."
@@ -398,7 +399,28 @@
             "Optimización de sistemas",
             "Externalización del departamento informático",
             "Acompañamiento tecnológico continuo"
-          ]
+          ],
+          "landing": {
+            "h1": "Consultoría informática para empresas en Madrid",
+            "meta_title": "Consultoría informática Madrid — Asesoramiento IT para empresas | Onilusion S.A.",
+            "meta_desc": "Consultoría y asesoramiento informático para pymes y empresas en Madrid y toda España. Planificación IT, optimización de sistemas y externalización del departamento informático.",
+            "intro": "Tomar buenas decisiones tecnológicas ahorra dinero y evita problemas. Analizamos la situación real de tu empresa —sistemas, procesos y objetivos— y te orientamos con criterio técnico e independiente, como un departamento informático externo que trabaja a tu lado desde Madrid para toda España.",
+            "benefits": [
+              "Decisiones basadas en un análisis real de tu empresa, no en paquetes estándar",
+              "Un interlocutor técnico estable que conoce tu negocio y habla tu idioma",
+              "Planificación IT con costes claros y prioridades definidas"
+            ],
+            "faqs": [
+              {
+                "q": "¿Qué incluye la consultoría informática de Onilusion?",
+                "a": "Análisis de la situación tecnológica, planificación IT, optimización de sistemas y acompañamiento continuo. Podemos actuar como departamento informático externo completo o apoyar a tu equipo interno."
+              },
+              {
+                "q": "¿Trabajáis con empresas que ya tienen informático propio?",
+                "a": "Sí. Complementamos a equipos internos con asesoramiento especializado, segundas opiniones técnicas y apoyo en proyectos concretos."
+              }
+            ]
+          }
         },
         {
           "id": "ciberseguridad",
@@ -412,7 +434,28 @@
             "Prevención frente a ransomware",
             "Revisión de vulnerabilidades",
             "Comunicaciones seguras"
-          ]
+          ],
+          "landing": {
+            "h1": "Ciberseguridad para pymes y empresas en Madrid",
+            "meta_title": "Ciberseguridad empresas Madrid — Protección y auditorías | Onilusion S.A.",
+            "meta_desc": "Protección de sistemas, datos y redes corporativas para pymes y empresas en Madrid y toda España. Auditorías de seguridad, prevención de ransomware y comunicaciones seguras.",
+            "intro": "Los ataques informáticos afectan cada vez más a las pymes, precisamente porque suelen estar menos protegidas. Integramos la seguridad en tu infraestructura con un enfoque preventivo —auditar, proteger y mantener— adaptado al tamaño y al riesgo real de tu empresa.",
+            "benefits": [
+              "Enfoque preventivo: detectamos vulnerabilidades antes de que se conviertan en incidentes",
+              "Medidas proporcionadas a tu tamaño y presupuesto, sin sobredimensionar",
+              "Protección alineada con el RGPD para tus datos y los de tus clientes"
+            ],
+            "faqs": [
+              {
+                "q": "¿Por dónde se empieza a proteger una empresa?",
+                "a": "Con una auditoría de seguridad: revisamos sistemas, redes, copias de seguridad y accesos, y priorizamos las medidas según el riesgo y el presupuesto."
+              },
+              {
+                "q": "¿La ciberseguridad es solo para empresas grandes?",
+                "a": "No. Las pymes son hoy un objetivo frecuente porque suelen tener menos protección. Adaptamos las medidas a cada tamaño de empresa."
+              }
+            ]
+          }
         },
         {
           "id": "infraestructura",
@@ -429,7 +472,28 @@
             "Firewalls y seguridad perimetral",
             "NAS y almacenamiento",
             "Virtualización"
-          ]
+          ],
+          "landing": {
+            "h1": "Mantenimiento informático para empresas en Madrid",
+            "meta_title": "Mantenimiento informático Madrid — Soporte IT para empresas | Onilusion S.A.",
+            "meta_desc": "Mantenimiento informático preventivo y correctivo para pymes y empresas. Soporte remoto en toda España y presencial en Madrid, gestión de servidores, redes y equipos.",
+            "intro": "Que la tecnología funcione todos los días no es casualidad: es mantenimiento. Cuidamos tus equipos, servidores y redes con soporte preventivo y correctivo —remoto para toda España y presencial en Madrid— para que tu empresa no se detenga por una incidencia informática.",
+            "benefits": [
+              "Respuesta rápida: soporte remoto inmediato y presencial en Madrid cuando hace falta",
+              "Mantenimiento preventivo que reduce averías e imprevistos",
+              "Un único proveedor para equipos, servidores, redes y copias de seguridad"
+            ],
+            "faqs": [
+              {
+                "q": "¿Ofrecéis mantenimiento con cuota mensual?",
+                "a": "Sí. Diseñamos planes de mantenimiento adaptados al tamaño y las necesidades de cada empresa, con alcance y costes claros."
+              },
+              {
+                "q": "¿Cuánto tardáis en atender una incidencia?",
+                "a": "La mayoría de incidencias se atienden en remoto de forma ágil. Si requiere presencia física, nos desplazamos; nuestra sede está en Madrid."
+              }
+            ]
+          }
         },
         {
           "id": "telecom",
@@ -442,7 +506,28 @@
             "Antenas",
             "Redes empresariales",
             "Comunicaciones corporativas"
-          ]
+          ],
+          "landing": {
+            "h1": "Telecomunicaciones y redes para empresas",
+            "meta_title": "Telecomunicaciones empresas Madrid — Telefonía IP y redes WiFi | Onilusion S.A.",
+            "meta_desc": "Telefonía IP, redes empresariales, routers, repetidores WiFi y antenas para empresas en Madrid y toda España. Conectividad profesional estable y segura.",
+            "intro": "Sin conectividad no hay negocio. Diseñamos e instalamos redes empresariales, telefonía IP y WiFi profesional para que tus comunicaciones sean estables, seguras y crezcan contigo: desde una oficina hasta sedes distribuidas, hoteles o centros educativos.",
+            "benefits": [
+              "Redes diseñadas para tu espacio real: cobertura WiFi sin zonas muertas",
+              "Telefonía IP flexible: extensiones, desvíos y trabajo remoto sin centralitas caras",
+              "Electrónica de red profesional instalada y mantenida por el mismo equipo"
+            ],
+            "faqs": [
+              {
+                "q": "¿Instaláis repetidores y redes WiFi en locales grandes?",
+                "a": "Sí. Estudiamos el espacio y diseñamos la cobertura con los puntos de acceso, repetidores o antenas necesarios para una señal estable en todo el local."
+              },
+              {
+                "q": "¿Qué ventajas tiene la telefonía IP para una pyme?",
+                "a": "Reduce costes, permite trabajar desde cualquier lugar con la extensión de la oficina y escala fácilmente al crecer el equipo."
+              }
+            ]
+          }
         },
         {
           "id": "cloud",
@@ -454,7 +539,28 @@
             "Software de gestión empresarial",
             "Implantación de soluciones digitales",
             "Optimización de procesos"
-          ]
+          ],
+          "landing": {
+            "h1": "Soluciones cloud y ERP online para empresas",
+            "meta_title": "Soluciones cloud empresas — Migración a la nube y ERP online | Onilusion S.A.",
+            "meta_desc": "Migración a la nube, ERP online y software de gestión empresarial para pymes. Implantación y acompañamiento desde Madrid para toda España.",
+            "intro": "La nube bien implantada significa trabajar desde cualquier lugar, pagar por lo que usas y no perder datos. Te acompañamos en la migración a la nube y en la implantación de ERP online y software de gestión, con una transición ordenada y sin frenar tu actividad.",
+            "benefits": [
+              "Migración planificada: sin pérdidas de datos ni parones de actividad",
+              "Acceso seguro a tu negocio desde la oficina, casa o cualquier sede",
+              "Software de gestión adaptado a tus procesos, no al revés"
+            ],
+            "faqs": [
+              {
+                "q": "¿Es seguro llevar mi empresa a la nube?",
+                "a": "Con una implantación correcta, la nube ofrece copias de seguridad, cifrado y control de accesos difíciles de igualar con servidores locales. Diseñamos la migración con la seguridad como prioridad."
+              },
+              {
+                "q": "¿Qué es un ERP online y para qué sirve?",
+                "a": "Es un software de gestión (facturación, compras, almacén, contabilidad…) accesible desde el navegador. Centraliza la información y elimina hojas de cálculo dispersas."
+              }
+            ]
+          }
         },
         {
           "id": "desarrollo",
@@ -467,7 +573,28 @@
             "APIs e integraciones",
             "Automatización de procesos",
             "Aplicaciones digitales"
-          ]
+          ],
+          "landing": {
+            "h1": "Desarrollo de software y web a medida en Madrid",
+            "meta_title": "Desarrollo software a medida Madrid — Web, APIs e integraciones | Onilusion S.A.",
+            "meta_desc": "Desarrollo de software a medida, webs corporativas, APIs e integraciones para empresas en Madrid y toda España. Digitalización adaptada a tus procesos reales.",
+            "intro": "Cuando el software estándar se queda corto, lo hacemos a medida. Desarrollamos aplicaciones, webs corporativas, APIs e integraciones que se adaptan a los procesos reales de tu empresa, y los automatizan para que tu equipo dedique el tiempo a lo importante.",
+            "benefits": [
+              "Software que se adapta a tu forma de trabajar, no al revés",
+              "Integraciones que conectan tus herramientas y eliminan trabajo duplicado",
+              "Desarrollo cercano: hablas directamente con quien construye tu proyecto"
+            ],
+            "faqs": [
+              {
+                "q": "¿Desarrolláis páginas web corporativas?",
+                "a": "Sí. Diseñamos y desarrollamos webs corporativas modernas, rápidas, seguras y optimizadas para buscadores, como escaparate profesional de tu empresa."
+              },
+              {
+                "q": "¿Podéis conectar programas que ya uso?",
+                "a": "Sí. Desarrollamos APIs e integraciones para que tus herramientas compartan datos automáticamente: facturación, CRM, almacén, web…"
+              }
+            ]
+          }
         },
         {
           "id": "hardware",
@@ -480,7 +607,28 @@
             "Pantallas y monitores",
             "Equipos de red",
             "Dispositivos tecnológicos para empresas"
-          ]
+          ],
+          "landing": {
+            "h1": "Equipamiento tecnológico para empresas",
+            "meta_title": "Equipamiento informático empresas — Ordenadores, servidores y TPV | Onilusion S.A.",
+            "meta_desc": "Suministro e instalación de ordenadores, servidores, TPV, pantallas y equipos de red para empresas en Madrid y toda España, con configuración y soporte incluidos.",
+            "intro": "Comprar tecnología sin criterio sale caro. Te suministramos e instalamos el equipamiento que tu empresa necesita —ordenadores, servidores, TPV, pantallas, electrónica de red— elegido con criterio técnico, configurado y listo para trabajar desde el primer día.",
+            "benefits": [
+              "Equipos seleccionados con criterio técnico según el uso real que les darás",
+              "Entrega, instalación y configuración incluidas: enciendes y trabajas",
+              "Soporte posterior del mismo equipo que te lo instaló"
+            ],
+            "faqs": [
+              {
+                "q": "¿Con qué marcas trabajáis?",
+                "a": "Trabajamos con fabricantes líderes del sector como Dell, HP, Cisco, Fortinet o Synology, eligiendo en cada caso el equipo que mejor encaja con la necesidad y el presupuesto."
+              },
+              {
+                "q": "¿Instaláis TPV para comercios y hostelería?",
+                "a": "Sí. Suministramos e instalamos terminales de punto de venta para comercios, restaurantes y hoteles, integrados con su software de gestión."
+              }
+            ]
+          }
         },
         {
           "id": "auditorias",
@@ -493,9 +641,31 @@
             "Revisión de redes y sistemas",
             "Informe técnico detallado",
             "Plan de mejoras y recomendaciones"
-          ]
+          ],
+          "landing": {
+            "h1": "Auditorías informáticas en Madrid",
+            "meta_title": "Auditoría informática Madrid — Evaluación de sistemas y seguridad | Onilusion S.A.",
+            "meta_desc": "Auditorías informáticas para empresas: evaluación técnica de sistemas, redes y seguridad con informe detallado y plan de mejoras. Madrid y toda España.",
+            "intro": "¿Sabes realmente cómo está tu infraestructura? Una auditoría informática te da una foto objetiva: qué funciona, qué está en riesgo y qué conviene mejorar, con un informe claro y un plan de acción priorizado por impacto y coste.",
+            "benefits": [
+              "Foto objetiva e independiente del estado real de tus sistemas",
+              "Informe claro y comprensible, sin tecnicismos innecesarios",
+              "Plan de mejoras priorizado por riesgo, impacto y coste"
+            ],
+            "faqs": [
+              {
+                "q": "¿Qué revisa una auditoría informática?",
+                "a": "Infraestructura, redes, seguridad, copias de seguridad, accesos y procesos. El alcance se adapta a cada empresa y a sus preocupaciones concretas."
+              },
+              {
+                "q": "¿La auditoría me obliga a contratar los cambios con vosotros?",
+                "a": "No. El informe es tuyo y puedes ejecutarlo con quien decidas. Si quieres que lo hagamos nosotros, te presentamos una propuesta aparte."
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "more": "Ver página del servicio"
     },
     "about": {
       "title": "Más de dos décadas siendo el socio tecnológico de empresas españolas",
@@ -598,6 +768,12 @@
           "p": "Esta política puede actualizarse para reflejar cambios normativos o técnicos. Te recomendamos revisarla periódicamente."
         }
       ]
+    },
+    "service_landing": {
+      "included": "Qué incluye",
+      "benefits": "Por qué con Onilusion",
+      "faq": "Preguntas frecuentes sobre este servicio",
+      "back": "Ver todos los servicios"
     }
   },
   "meta": {
@@ -611,5 +787,100 @@
     "contact_desc": "Contacta con Onilusion S.A. en Madrid. Solicita asesoramiento IT sin compromiso. Teléfono: 914 009 634. Email: info@onilusion.com.",
     "faq_title": "Preguntas frecuentes sobre servicios informáticos | Onilusion S.A.",
     "faq_desc": "Respuestas a las dudas más frecuentes sobre mantenimiento IT, ciberseguridad, desarrollo de software e infraestructura tecnológica para pymes."
+  },
+  "notfound": {
+    "title": "Página no encontrada",
+    "desc": "La página que buscas no existe o ha cambiado de dirección.",
+    "cta": "Volver al inicio",
+    "cta2": "Ver servicios"
+  },
+  "dynamic_services": {
+    "ciberseguridad": {
+      "title": "Servicios de Ciberseguridad para Empresas",
+      "desc": "Protección proactiva y auditorías de seguridad informática para tu negocio en Madrid y toda España."
+    },
+    "mantenimiento-informatico": {
+      "title": "Mantenimiento Informático para Empresas",
+      "desc": "Mantenimiento preventivo, correctivo y soporte técnico continuo para pymes y empresas."
+    },
+    "consultoria-informatica": {
+      "title": "Consultoría Informática y Tecnológica",
+      "desc": "Asesoramiento tecnológico estratégico para optimizar los procesos y la infraestructura de tu negocio."
+    },
+    "auditoria-informatica": {
+      "title": "Auditoría Informática y de Sistemas",
+      "desc": "Evaluación técnica de infraestructura, redes y procesos para mejorar seguridad y rendimiento."
+    },
+    "servicios-it": {
+      "title": "Servicios IT Integrales para Pymes",
+      "desc": "Soporte, gestión de sistemas y soluciones tecnológicas a medida para tu empresa."
+    },
+    "infraestructura-tecnologica": {
+      "title": "Infraestructura Tecnológica Empresarial",
+      "desc": "Diseño, implantación y mantenimiento de servidores, almacenamiento y sistemas robustos."
+    },
+    "telecomunicaciones": {
+      "title": "Telecomunicaciones y Conectividad",
+      "desc": "Telefonía IP, routers y soluciones de comunicación avanzadas para empresas."
+    },
+    "redes-empresariales": {
+      "title": "Instalación y Mantenimiento de Redes",
+      "desc": "Electrónica de red, repetidores WiFi y soluciones de conectividad estables."
+    },
+    "desarrollo-web": {
+      "title": "Desarrollo Web Profesional para Empresas",
+      "desc": "Diseño y desarrollo de sitios web corporativos modernos, rápidos y optimizados para SEO."
+    },
+    "desarrollo-software": {
+      "title": "Desarrollo de Software a Medida",
+      "desc": "Aplicaciones de escritorio, móviles y soluciones digitales adaptadas a tus procesos de negocio."
+    },
+    "cloud": {
+      "title": "Soluciones Cloud y ERP Online",
+      "desc": "Migración a la nube, escritorios virtuales y gestión de software empresarial en el cloud."
+    },
+    "apis-integraciones": {
+      "title": "APIs e Integración de Sistemas",
+      "desc": "Conectamos tus aplicaciones y automatizamos el flujo de información de tu negocio."
+    },
+    "soporte-informatico": {
+      "title": "Soporte Informático Presencial y Remoto",
+      "desc": "Asistencia técnica rápida y eficaz para resolver incidencias de hardware y software."
+    }
+  },
+  "dynamic_sectors": {
+    "centros-educativos": {
+      "title": "Soluciones Tecnológicas para Centros Educativos",
+      "desc": "Mantenimiento informático, seguridad y conectividad para colegios, institutos y universidades."
+    },
+    "despachos-abogados": {
+      "title": "Servicios Informáticos para Despachos de Abogados",
+      "desc": "Protección de datos (RGPD), copias de seguridad y sistemas IT seguros para bufetes."
+    },
+    "hoteles": {
+      "title": "Tecnología y Conectividad para Hoteles",
+      "desc": "Redes WiFi para clientes, telefonía IP y mantenimiento informático para el sector hotelero."
+    },
+    "restaurantes": {
+      "title": "Sistemas IT para Restaurantes y Hostelería",
+      "desc": "Equipamiento tecnológico, TPVs, WiFi y mantenimiento rápido para hostelería."
+    },
+    "agencias": {
+      "title": "Soporte Tecnológico para Agencias",
+      "desc": "Infraestructura, desarrollo web y cloud para agencias de comunicación, marketing y consultoras."
+    },
+    "comercios": {
+      "title": "Equipamiento y Mantenimiento para Comercios",
+      "desc": "TPVs, redes WiFi locales y soporte técnico para tiendas y locales comerciales."
+    },
+    "pymes": {
+      "title": "Soluciones Tecnológicas Integrales para Pymes",
+      "desc": "Soporte informático, ciberseguridad y servicios IT adaptados al presupuesto de las pymes."
+    }
+  },
+  "mobile_sticky": {
+    "call": "Llamar",
+    "whatsapp": "WhatsApp",
+    "contact": "Asesoramiento"
   }
 }

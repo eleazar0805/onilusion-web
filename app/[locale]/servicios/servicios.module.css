@@ -98,6 +98,23 @@
   color: var(--lavanda);
 }
 
+.categoryLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--lavanda);
+  transition: gap var(--t-fast), color var(--t-fast);
+  min-height: 44px;
+}
+
+.categoryLink:hover {
+  gap: 10px;
+  color: var(--blanco);
+}
+
 .footerCta {
   display: flex;
   justify-content: center;

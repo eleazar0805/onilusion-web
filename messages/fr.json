@@ -361,7 +361,8 @@
       "contact": "Contact",
       "legal": "Mentions légales",
       "privacy": "Politique de confidentialité",
-      "cookies": "Politique de cookies"
+      "cookies": "Politique de cookies",
+      "cookie_prefs": "Préférences de cookies"
     },
     "linkedin": "LinkedIn",
     "copyright": "© 2001–2026 Onilusion S.A. Tous droits réservés."
@@ -398,7 +399,28 @@
             "Optimisation des systèmes",
             "Externalisation du service informatique",
             "Accompagnement technologique continu"
-          ]
+          ],
+          "landing": {
+            "h1": "Conseil informatique pour entreprises à Madrid",
+            "meta_title": "Conseil informatique Madrid — Accompagnement IT pour entreprises | Onilusion S.A.",
+            "meta_desc": "Conseil et accompagnement informatique pour PME et entreprises à Madrid et dans toute l'Espagne. Planification IT, optimisation des systèmes et externalisation du service informatique.",
+            "intro": "Prendre les bonnes décisions technologiques fait économiser de l'argent et évite les problèmes. Nous analysons la situation réelle de votre entreprise — systèmes, processus et objectifs — et vous orientons avec un regard technique indépendant, comme un service informatique externe qui travaille à vos côtés depuis Madrid pour toute l'Espagne.",
+            "benefits": [
+              "Des décisions fondées sur une analyse réelle de votre entreprise, pas sur des offres standard",
+              "Un interlocuteur technique stable qui connaît votre activité et parle votre langue",
+              "Une planification IT avec des coûts clairs et des priorités définies"
+            ],
+            "faqs": [
+              {
+                "q": "Que comprend le conseil informatique d'Onilusion ?",
+                "a": "Analyse de la situation technologique, planification IT, optimisation des systèmes et accompagnement continu. Nous pouvons agir comme service informatique externe complet ou appuyer votre équipe interne."
+              },
+              {
+                "q": "Travaillez-vous avec des entreprises qui ont déjà un informaticien ?",
+                "a": "Oui. Nous complétons les équipes internes avec du conseil spécialisé, des contre-expertises techniques et un appui sur des projets précis."
+              }
+            ]
+          }
         },
         {
           "id": "ciberseguridad",
@@ -412,7 +434,28 @@
             "Prévention contre les ransomwares",
             "Analyse des vulnérabilités",
             "Communications sécurisées"
-          ]
+          ],
+          "landing": {
+            "h1": "Cybersécurité pour PME et entreprises à Madrid",
+            "meta_title": "Cybersécurité entreprises Madrid — Protection et audits | Onilusion S.A.",
+            "meta_desc": "Protection des systèmes, données et réseaux d'entreprise pour PME à Madrid et dans toute l'Espagne. Audits de sécurité, prévention des ransomwares et communications sécurisées.",
+            "intro": "Les cyberattaques touchent de plus en plus les PME, précisément parce qu'elles sont souvent moins protégées. Nous intégrons la sécurité dans votre infrastructure avec une approche préventive — auditer, protéger et maintenir — adaptée à la taille et au risque réel de votre entreprise.",
+            "benefits": [
+              "Approche préventive : nous détectons les vulnérabilités avant qu'elles ne deviennent des incidents",
+              "Des mesures proportionnées à votre taille et à votre budget, sans surdimensionner",
+              "Une protection alignée sur le RGPD pour vos données et celles de vos clients"
+            ],
+            "faqs": [
+              {
+                "q": "Par où commencer pour protéger une entreprise ?",
+                "a": "Par un audit de sécurité : nous passons en revue systèmes, réseaux, sauvegardes et accès, et priorisons les mesures selon le risque et le budget."
+              },
+              {
+                "q": "La cybersécurité est-elle réservée aux grandes entreprises ?",
+                "a": "Non. Les PME sont aujourd'hui une cible fréquente car elles sont généralement moins protégées. Nous adaptons les mesures à chaque taille d'entreprise."
+              }
+            ]
+          }
         },
         {
           "id": "infraestructura",
@@ -429,7 +472,28 @@
             "Pare-feu et sécurité périmétrique",
             "NAS et stockage",
             "Virtualisation"
-          ]
+          ],
+          "landing": {
+            "h1": "Maintenance informatique pour entreprises à Madrid",
+            "meta_title": "Maintenance informatique Madrid — Support IT entreprises | Onilusion S.A.",
+            "meta_desc": "Maintenance informatique préventive et corrective pour PME et entreprises. Support à distance dans toute l'Espagne et sur site à Madrid ; serveurs, réseaux et équipements.",
+            "intro": "Une technologie qui fonctionne tous les jours, ce n'est pas un hasard : c'est de la maintenance. Nous prenons soin de vos équipements, serveurs et réseaux avec un support préventif et correctif — à distance pour toute l'Espagne et sur site à Madrid — pour que votre entreprise ne s'arrête jamais à cause d'un incident informatique.",
+            "benefits": [
+              "Réponse rapide : support à distance immédiat et sur site à Madrid si nécessaire",
+              "Une maintenance préventive qui réduit les pannes et les imprévus",
+              "Un seul prestataire pour les équipements, serveurs, réseaux et sauvegardes"
+            ],
+            "faqs": [
+              {
+                "q": "Proposez-vous des contrats de maintenance mensuels ?",
+                "a": "Oui. Nous concevons des plans de maintenance adaptés à la taille et aux besoins de chaque entreprise, avec un périmètre et des coûts clairs."
+              },
+              {
+                "q": "En combien de temps traitez-vous un incident ?",
+                "a": "La plupart des incidents sont traités rapidement à distance. Si une présence physique est nécessaire, nous nous déplaçons ; notre siège est à Madrid."
+              }
+            ]
+          }
         },
         {
           "id": "telecom",
@@ -442,7 +506,28 @@
             "Antennes",
             "Réseaux d'entreprise",
             "Communications d'entreprise"
-          ]
+          ],
+          "landing": {
+            "h1": "Télécommunications et réseaux pour entreprises",
+            "meta_title": "Télécommunications entreprises Madrid — Téléphonie IP et WiFi | Onilusion S.A.",
+            "meta_desc": "Téléphonie IP, réseaux d'entreprise, routeurs, répéteurs WiFi et antennes pour entreprises à Madrid et dans toute l'Espagne. Connectivité professionnelle stable et sécurisée.",
+            "intro": "Sans connectivité, pas d'activité. Nous concevons et installons réseaux d'entreprise, téléphonie IP et WiFi professionnel pour des communications stables, sécurisées et évolutives : d'un simple bureau à des sites distribués, hôtels ou établissements scolaires.",
+            "benefits": [
+              "Des réseaux conçus pour votre espace réel : couverture WiFi sans zones mortes",
+              "Téléphonie IP flexible : extensions, renvois et télétravail sans standards coûteux",
+              "Électronique réseau professionnelle installée et maintenue par la même équipe"
+            ],
+            "faqs": [
+              {
+                "q": "Installez-vous des répéteurs et réseaux WiFi dans de grands locaux ?",
+                "a": "Oui. Nous étudions l'espace et concevons la couverture avec les points d'accès, répéteurs ou antennes nécessaires pour un signal stable partout."
+              },
+              {
+                "q": "Quels avantages la téléphonie IP offre-t-elle à une PME ?",
+                "a": "Elle réduit les coûts, permet de travailler de n'importe où avec l'extension du bureau et évolue facilement avec la croissance de l'équipe."
+              }
+            ]
+          }
         },
         {
           "id": "cloud",
@@ -454,7 +539,28 @@
             "Logiciels de gestion d'entreprise",
             "Déploiement de solutions numériques",
             "Optimisation des processus"
-          ]
+          ],
+          "landing": {
+            "h1": "Solutions cloud et ERP en ligne pour entreprises",
+            "meta_title": "Solutions cloud entreprises — Migration cloud et ERP en ligne | Onilusion S.A.",
+            "meta_desc": "Migration vers le cloud, ERP en ligne et logiciels de gestion pour PME. Déploiement et accompagnement depuis Madrid pour toute l'Espagne.",
+            "intro": "Un cloud bien déployé, c'est travailler de n'importe où, payer ce que l'on utilise et ne jamais perdre de données. Nous vous accompagnons dans la migration vers le cloud et le déploiement d'ERP en ligne et de logiciels de gestion, avec une transition ordonnée qui ne freine pas votre activité.",
+            "benefits": [
+              "Migration planifiée : sans perte de données ni interruption d'activité",
+              "Accès sécurisé à votre entreprise depuis le bureau, la maison ou tout autre site",
+              "Des logiciels de gestion adaptés à vos processus, et non l'inverse"
+            ],
+            "faqs": [
+              {
+                "q": "Est-il sûr de migrer mon entreprise vers le cloud ?",
+                "a": "Bien déployé, le cloud offre des sauvegardes, un chiffrement et un contrôle d'accès difficiles à égaler avec des serveurs locaux. Nous concevons la migration avec la sécurité comme priorité."
+              },
+              {
+                "q": "Qu'est-ce qu'un ERP en ligne et à quoi sert-il ?",
+                "a": "C'est un logiciel de gestion (facturation, achats, stock, comptabilité…) accessible depuis le navigateur. Il centralise l'information et élimine les tableurs dispersés."
+              }
+            ]
+          }
         },
         {
           "id": "desarrollo",
@@ -467,7 +573,28 @@
             "API et intégrations",
             "Automatisation des processus",
             "Applications numériques"
-          ]
+          ],
+          "landing": {
+            "h1": "Développement de logiciels et sites web sur mesure à Madrid",
+            "meta_title": "Développement logiciel sur mesure Madrid — Web, API et intégrations | Onilusion S.A.",
+            "meta_desc": "Développement de logiciels sur mesure, sites web d'entreprise, API et intégrations à Madrid et dans toute l'Espagne. Digitalisation adaptée à vos processus réels.",
+            "intro": "Quand le logiciel standard ne suffit plus, nous le créons sur mesure. Nous développons applications, sites web d'entreprise, API et intégrations qui s'adaptent aux processus réels de votre entreprise — et les automatisent pour que votre équipe consacre son temps à l'essentiel.",
+            "benefits": [
+              "Un logiciel qui s'adapte à votre façon de travailler, et non l'inverse",
+              "Des intégrations qui connectent vos outils et éliminent le travail en double",
+              "Un développement de proximité : vous parlez directement à ceux qui construisent votre projet"
+            ],
+            "faqs": [
+              {
+                "q": "Développez-vous des sites web d'entreprise ?",
+                "a": "Oui. Nous concevons et développons des sites web modernes, rapides, sécurisés et optimisés pour les moteurs de recherche, vitrine professionnelle de votre entreprise."
+              },
+              {
+                "q": "Pouvez-vous connecter des programmes que j'utilise déjà ?",
+                "a": "Oui. Nous développons des API et intégrations pour que vos outils partagent les données automatiquement : facturation, CRM, stock, web…"
+              }
+            ]
+          }
         },
         {
           "id": "hardware",
@@ -480,7 +607,28 @@
             "Écrans et moniteurs",
             "Équipements réseau",
             "Dispositifs technologiques pour entreprises"
-          ]
+          ],
+          "landing": {
+            "h1": "Équipement technologique pour entreprises",
+            "meta_title": "Équipement informatique entreprises — Ordinateurs, serveurs et TPV | Onilusion S.A.",
+            "meta_desc": "Fourniture et installation d'ordinateurs, serveurs, TPV, écrans et équipements réseau pour entreprises à Madrid et dans toute l'Espagne, configuration et support inclus.",
+            "intro": "Acheter de la technologie sans expertise coûte cher. Nous fournissons et installons l'équipement dont votre entreprise a besoin — ordinateurs, serveurs, TPV, écrans, électronique réseau — choisi avec un regard technique, configuré et prêt à fonctionner dès le premier jour.",
+            "benefits": [
+              "Des équipements sélectionnés selon l'usage réel que vous en ferez",
+              "Livraison, installation et configuration incluses : vous allumez et travaillez",
+              "Un support assuré ensuite par l'équipe qui a réalisé l'installation"
+            ],
+            "faqs": [
+              {
+                "q": "Avec quelles marques travaillez-vous ?",
+                "a": "Nous travaillons avec des fabricants de référence comme Dell, HP, Cisco, Fortinet ou Synology, en choisissant chaque fois l'équipement le plus adapté au besoin et au budget."
+              },
+              {
+                "q": "Installez-vous des TPV pour le commerce et la restauration ?",
+                "a": "Oui. Nous fournissons et installons des terminaux de point de vente pour commerces, restaurants et hôtels, intégrés à leur logiciel de gestion."
+              }
+            ]
+          }
         },
         {
           "id": "auditorias",
@@ -493,9 +641,31 @@
             "Revue des réseaux et systèmes",
             "Rapport technique détaillé",
             "Plan d'amélioration et recommandations"
-          ]
+          ],
+          "landing": {
+            "h1": "Audits informatiques à Madrid",
+            "meta_title": "Audit informatique Madrid — Évaluation des systèmes et de la sécurité | Onilusion S.A.",
+            "meta_desc": "Audits informatiques pour entreprises : évaluation technique des systèmes, réseaux et sécurité avec rapport détaillé et plan d'amélioration. Madrid et toute l'Espagne.",
+            "intro": "Savez-vous vraiment dans quel état est votre infrastructure ? Un audit informatique vous donne une image objective : ce qui fonctionne, ce qui est à risque et ce qu'il convient d'améliorer, avec un rapport clair et un plan d'action priorisé par impact et par coût.",
+            "benefits": [
+              "Une image objective et indépendante de l'état réel de vos systèmes",
+              "Un rapport clair et compréhensible, sans jargon inutile",
+              "Un plan d'amélioration priorisé par risque, impact et coût"
+            ],
+            "faqs": [
+              {
+                "q": "Que passe en revue un audit informatique ?",
+                "a": "Infrastructure, réseaux, sécurité, sauvegardes, accès et processus. Le périmètre s'adapte à chaque entreprise et à ses préoccupations concrètes."
+              },
+              {
+                "q": "L'audit m'oblige-t-il à vous confier les changements ?",
+                "a": "Non. Le rapport vous appartient et vous pouvez le mettre en œuvre avec qui vous voulez. Si vous souhaitez que nous nous en chargions, nous présentons une proposition séparée."
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "more": "Voir la page du service"
     },
     "about": {
       "title": "Plus de deux décennies comme partenaire technologique des entreprises espagnoles",
@@ -598,6 +768,12 @@
           "p": "Cette politique peut être mise à jour pour refléter des évolutions réglementaires ou techniques. Nous vous recommandons de la consulter régulièrement."
         }
       ]
+    },
+    "service_landing": {
+      "included": "Ce qui est inclus",
+      "benefits": "Pourquoi Onilusion",
+      "faq": "Questions fréquentes sur ce service",
+      "back": "Voir tous les services"
     }
   },
   "meta": {
@@ -611,5 +787,100 @@
     "contact_desc": "Contactez Onilusion S.A. à Madrid. Demandez un conseil IT sans engagement. Téléphone: 914 009 634. Email: info@onilusion.com.",
     "faq_title": "FAQ sur les services informatiques | Onilusion S.A.",
     "faq_desc": "Réponses aux questions courantes sur la maintenance IT, la cybersécurité, le développement logiciel et l'infrastructure technologique pour PME."
+  },
+  "notfound": {
+    "title": "Page introuvable",
+    "desc": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil",
+    "cta2": "Voir les services"
+  },
+  "dynamic_services": {
+    "ciberseguridad": {
+      "title": "Services de Cybersécurité pour Entreprises",
+      "desc": "Protection proactive et audits de sécurité informatique pour votre entreprise à Madrid et dans toute l'Espagne."
+    },
+    "mantenimiento-informatico": {
+      "title": "Maintenance Informatique pour Entreprises",
+      "desc": "Maintenance préventive, corrective et support technique continu pour PME et grandes entreprises."
+    },
+    "consultoria-informatica": {
+      "title": "Conseil Informatique et Technologique",
+      "desc": "Conseil technologique stratégique pour optimiser vos processus et infrastructures d'affaires."
+    },
+    "auditoria-informatica": {
+      "title": "Audit Informatique et des Systèmes",
+      "desc": "Évaluation technique des infrastructures, réseaux et processus pour améliorer sécurité et performance."
+    },
+    "servicios-it": {
+      "title": "Services IT Complets pour PME",
+      "desc": "Support, gestion de systèmes et solutions technologiques sur mesure pour votre entreprise."
+    },
+    "infraestructura-tecnologica": {
+      "title": "Infrastructure Technologique d'Entreprise",
+      "desc": "Conception, déploiement et maintenance de serveurs, stockage et systèmes robustes."
+    },
+    "telecomunicaciones": {
+      "title": "Télécommunications et Connectivité",
+      "desc": "Téléphonie IP, routeurs et solutions de communication avancées pour les entreprises."
+    },
+    "redes-empresariales": {
+      "title": "Installation et Maintenance de Réseaux",
+      "desc": "Électronique réseau, points d'accès WiFi et solutions de connectivité stables."
+    },
+    "desarrollo-web": {
+      "title": "Développement Web Professionnel pour Entreprises",
+      "desc": "Conception et développement de sites web d'entreprise modernes, rapides et optimisés pour le SEO."
+    },
+    "desarrollo-software": {
+      "title": "Développement de Logiciels sur Mesure",
+      "desc": "Applications de bureau, mobiles et solutions digitales adaptées à vos processus d'affaires."
+    },
+    "cloud": {
+      "title": "Solutions Cloud et ERP en Ligne",
+      "desc": "Migration vers le cloud, bureaux virtuels et gestion de logiciels d'entreprise dans le cloud."
+    },
+    "apis-integraciones": {
+      "title": "APIs et Intégration de Systèmes",
+      "desc": "Nous connectons vos applications et automatisons le flux d'informations de votre entreprise."
+    },
+    "soporte-informatico": {
+      "title": "Support Informatique sur Site et à Distance",
+      "desc": "Assistance technique rapide et efficace pour résoudre les problèmes matériels et logiciels."
+    }
+  },
+  "dynamic_sectors": {
+    "centros-educativos": {
+      "title": "Solutions Technologiques pour Établissements Scolaires",
+      "desc": "Maintenance informatique, sécurité et connectivité pour écoles, collèges et universités."
+    },
+    "despachos-abogados": {
+      "title": "Services Informatiques pour Cabinets d'Avocats",
+      "desc": "Protection des données (RGPD), sauvegardes sécurisées et systèmes IT fiables pour cabinets."
+    },
+    "hoteles": {
+      "title": "Technologie et Connectivité pour Hôtels",
+      "desc": "Réseaux WiFi invités, téléphonie IP et maintenance informatique pour l'hôtellerie."
+    },
+    "restaurantes": {
+      "title": "Systèmes IT pour Restaurants et Restauration",
+      "desc": "Équipement technologique, systèmes POS, WiFi et maintenance informatique rapide."
+    },
+    "agencias": {
+      "title": "Support Technologique pour Agences",
+      "desc": "Infrastructure, développement web et cloud pour agences de marketing, communication et conseil."
+    },
+    "comercios": {
+      "title": "Équipement et Maintenance pour Commerces",
+      "desc": "Terminaux POS, réseaux WiFi locaux et support technique pour boutiques et locaux commerciaux."
+    },
+    "pymes": {
+      "title": "Solutions Technologiques Complètes pour PME",
+      "desc": "Support informatique, cybersécurité et services IT adaptés aux budgets des PME."
+    }
+  },
+  "mobile_sticky": {
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "contact": "Demander"
   }
 }

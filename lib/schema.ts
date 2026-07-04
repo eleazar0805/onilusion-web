@@ -45,6 +45,20 @@ export function organizationSchema(locale: string) {
         email: site.email,
         address: orgAddress,
         areaServed: { '@type': 'Country', name: 'España' },
+        priceRange: '$$',
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 40.40723,
+          longitude: -3.66986,
+        },
+        openingHoursSpecification: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '08:30',
+          closes: '18:30',
+        },
+        sameAs: ['https://www.linkedin.com/company/onilusion'],
+        hasMap: 'https://maps.google.com/?q=Calle+Doctor+Esquerdo,+105,+28007+Madrid',
         knowsAbout: [
           'Consultoría informática',
           'Ciberseguridad',

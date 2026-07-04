@@ -32,12 +32,37 @@ export default function CookieBanner() {
     }
   }, []);
 
+  useEffect(() => {
+    const handleOpen = () => {
+      setVisible(true);
+      setShowPrefs(true);
+    };
+    window.addEventListener('open-cookie-settings', handleOpen);
+    return () => window.removeEventListener('open-cookie-settings', handleOpen);
+  }, []);
+
+
+  // Rastro RGPD: cuándo y con qué versión de la política se decidió.
+  const recordConsentMeta = () => {
+    localStorage.setItem(
+      'onilusion_cookie_consent_meta',
+      JSON.stringify({ date: new Date().toISOString(), version: '2026-07' })
+    );
+  };
+
   const acceptAll = () => {
     localStorage.setItem('onilusion_cookie_consent', 'accepted');
     localStorage.setItem(
       'onilusion_cookie_prefs',
       JSON.stringify({ analytics: true, marketing: true })
     );
+    window.gtag?.('consent', 'update', {
+      analytics_storage: 'granted',
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+    });
+    recordConsentMeta();
     setVisible(false);
   };
 
@@ -47,6 +72,13 @@ export default function CookieBanner() {
       'onilusion_cookie_prefs',
       JSON.stringify({ analytics: false, marketing: false })
     );
+    window.gtag?.('consent', 'update', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+    });
+    recordConsentMeta();
     setVisible(false);
   };
 
@@ -56,6 +88,13 @@ export default function CookieBanner() {
       'onilusion_cookie_prefs',
       JSON.stringify({ analytics: allowAnalytics, marketing: allowMarketing })
     );
+    window.gtag?.('consent', 'update', {
+      analytics_storage: allowAnalytics ? 'granted' : 'denied',
+      ad_storage: allowMarketing ? 'granted' : 'denied',
+      ad_user_data: allowMarketing ? 'granted' : 'denied',
+      ad_personalization: allowMarketing ? 'granted' : 'denied',
+    });
+    recordConsentMeta();
     setVisible(false);
   };
 

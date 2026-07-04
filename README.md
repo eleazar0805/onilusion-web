@@ -42,6 +42,8 @@ Crea `.env.local` a partir de `.env.example`:
 | `SMTP_PASS` | Contraseña del correo saliente |
 | `SMTP_FROM` | Remitente (ej. `noreply@onilusion.com`) |
 | `CONTACT_EMAIL` | Receptor de formularios (`info@onilusion.com`) |
+| `NEXT_PUBLIC_GA_ID` | (Opcional) ID de Google Analytics 4 — solo se carga tras consentimiento |
+| `NEXT_PUBLIC_GTM_ID` | (Opcional) ID de Google Tag Manager — solo se carga tras consentimiento |
 
 > ⚠️ **Nunca subas `.env.local` a Git** — está excluido en `.gitignore`.
 

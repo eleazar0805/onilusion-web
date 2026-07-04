@@ -41,3 +41,23 @@ export const paths = {
 export function localeUrl(locale: string, path: string = ''): string {
   return `${site.url}/${locale}${path}`;
 }
+
+/** Landing por servicio: id de categoría → slug SEO (igual en todos los idiomas). */
+export const serviceSlugs: Record<string, string> = {
+  consultoria: 'consultoria-informatica',
+  ciberseguridad: 'ciberseguridad',
+  infraestructura: 'mantenimiento-informatico',
+  telecom: 'telecomunicaciones',
+  cloud: 'cloud-erp',
+  desarrollo: 'desarrollo-software-web',
+  hardware: 'equipamiento-tecnologico',
+  auditorias: 'auditorias-informaticas',
+};
+
+export const slugToServiceId: Record<string, string> = Object.fromEntries(
+  Object.entries(serviceSlugs).map(([id, slug]) => [slug, id])
+);
+
+export function servicePath(id: string): string {
+  return `${paths.services}/${serviceSlugs[id] ?? id}`;
+}

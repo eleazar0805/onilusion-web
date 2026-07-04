@@ -4,7 +4,7 @@ import Icon from '@/components/ui/Icon';
 import Reveal from '@/components/ui/Reveal';
 import JsonLd from '@/components/ui/JsonLd';
 import { servicesSchema } from '@/lib/schema';
-import { paths } from '@/lib/site';
+import { servicePath } from '@/lib/site';
 import styles from './Services.module.css';
 
 const serviceIcons: Record<string, string> = {
@@ -43,7 +43,7 @@ export default async function Services({ locale }: { locale: string }) {
           {items.map((item, i) => (
             <Reveal key={item.id} delay={(i % 4) * 80}>
               <Link
-                href={`/${locale}${paths.services}#${item.id}`}
+                href={`/${locale}${servicePath(item.id)}`}
                 className={styles.card}
                 aria-label={item.title}
               >

@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Logo from '@/components/ui/Logo';
@@ -89,6 +91,14 @@ export default function Footer() {
                 <li><Link href={`/${locale}/aviso-legal`}>{t('footer.links.legal')}</Link></li>
                 <li><Link href={`/${locale}/politica-privacidad`}>{t('footer.links.privacy')}</Link></li>
                 <li><Link href={`/${locale}/politica-cookies`}>{t('footer.links.cookies')}</Link></li>
+                <li>
+                  <button
+                    onClick={() => window.dispatchEvent(new CustomEvent('open-cookie-settings'))}
+                    className={styles.cookieBtn}
+                  >
+                    {t('footer.links.cookie_prefs')}
+                  </button>
+                </li>
               </ul>
             </div>
           </div>

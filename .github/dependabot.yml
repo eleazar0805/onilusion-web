@@ -1,0 +1,17 @@
+# Avisos y PRs automáticos cuando haya actualizaciones de seguridad
+# en las dependencias (Next.js, next-intl, nodemailer, etc.).
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    labels:
+      - dependencias
+    groups:
+      producción:
+        dependency-type: production
+      desarrollo:
+        dependency-type: development

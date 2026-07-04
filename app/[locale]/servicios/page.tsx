@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { breadcrumbSchema, servicesSchema } from '@/lib/schema';
-import { paths } from '@/lib/site';
+import { paths, servicePath } from '@/lib/site';
 import JsonLd from '@/components/ui/JsonLd';
 import Icon from '@/components/ui/Icon';
 import Reveal from '@/components/ui/Reveal';
@@ -77,6 +77,10 @@ export default async function ServicesPage({ params: { locale } }: Props) {
                       </li>
                     ))}
                   </ul>
+                  <Link href={`/${locale}${servicePath(cat.id)}`} className={styles.categoryLink}>
+                    {t('more')}
+                    <Icon name="arrowRight" size={15} />
+                  </Link>
                 </article>
               </Reveal>
             ))}

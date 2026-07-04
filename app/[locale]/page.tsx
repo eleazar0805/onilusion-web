@@ -30,7 +30,7 @@ export default function HomePage({ params: { locale } }: Props) {
       <Services locale={locale} />
       <HowWeWork />
       <Cyber locale={locale} />
-      <Sectors />
+      <Sectors locale={locale} />
       <WhyChooseUs />
       <Partners />
       <Faq locale={locale} limit={6} />

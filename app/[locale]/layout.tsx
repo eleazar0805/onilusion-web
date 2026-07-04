@@ -10,6 +10,8 @@ import JsonLd from '@/components/ui/JsonLd';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import CookieBanner from '@/components/layout/CookieBanner';
+import GoogleTracking from '@/components/ui/GoogleTracking';
+import MobileStickyActions from '@/components/layout/MobileStickyActions';
 import '@/styles/globals.css';
 
 const sora = Sora({
@@ -61,11 +63,14 @@ export default async function LocaleLayout({
     nav: messages.nav,
     cookies: messages.cookies,
     contact: messages.contact,
+    footer: messages.footer,
+    mobile_sticky: messages.mobile_sticky,
   } as typeof messages;
 
   return (
     <html lang={locale} className={`${sora.variable} ${inter.variable}`}>
       <body>
+        <GoogleTracking />
         <JsonLd data={organizationSchema(locale)} />
         <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <a href="#contenido" className="skip-link">
@@ -75,6 +80,7 @@ export default async function LocaleLayout({
           <main id="contenido">{children}</main>
           <Footer />
           <CookieBanner />
+          <MobileStickyActions />
         </NextIntlClientProvider>
       </body>
     </html>

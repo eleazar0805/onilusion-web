@@ -1,0 +1,86 @@
+.stickyBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: none;
+  background: rgba(6, 13, 31, 0.88);
+  border-top: 1px solid var(--borde-oscuro);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 10px 16px 14px; /* un poco de padding extra abajo para dispositivos con notch */
+  padding-bottom: calc(10px + env(safe-area-inset-bottom, 12px));
+  box-shadow: 0 -8px 24px rgba(4, 10, 30, 0.4);
+}
+
+.actionBtn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--plata);
+  transition: color var(--t-fast);
+  text-decoration: none;
+}
+
+.actionBtn:hover, .actionBtn:focus-visible {
+  color: var(--blanco);
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  transition: background var(--t-normal), transform var(--t-normal);
+  color: var(--plata);
+}
+
+.actionBtn:hover .iconWrap {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Estilo para WhatsApp */
+.whatsappBtn .iconWrap {
+  color: #25D366;
+  background: rgba(37, 211, 102, 0.08);
+}
+
+.whatsappBtn:hover .iconWrap {
+  background: rgba(37, 211, 102, 0.16);
+}
+
+/* Estilo para Contacto / Asesoramiento */
+.contactBtn .iconWrap {
+  color: var(--lavanda);
+  background: rgba(53, 196, 228, 0.08);
+}
+
+.contactBtn:hover .iconWrap {
+  background: rgba(53, 196, 228, 0.16);
+}
+
+.label {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Responsive: mostrar solo en tablets y móviles */
+@media (max-width: 768px) {
+  .stickyBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+  }
+}

@@ -28,12 +28,13 @@ const nextConfig = {
               "default-src 'self'",
               // Next.js necesita inline para sus scripts de hidratación y JSON-LD.
               // 'unsafe-eval' solo en desarrollo (source maps del dev server).
-              `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''}`,
+              // googletagmanager: GA4/GTM (solo se cargan tras consentimiento).
+              `script-src 'self' 'unsafe-inline' https://www.googletagmanager.com${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''}`,
               "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' data: blob:",
+              "img-src 'self' data: blob: https://www.googletagmanager.com https://*.google-analytics.com",
               "media-src 'self'",
               "font-src 'self'",
-              "connect-src 'self'",
+              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com",
               "frame-ancestors 'none'",
               "base-uri 'self'",
               "form-action 'self'",

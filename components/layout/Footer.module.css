@@ -129,6 +129,19 @@
   color: var(--blanco-calido);
 }
 
+.cookieBtn {
+  font-size: var(--text-sm);
+  color: var(--gris-neutro);
+  transition: color var(--t-fast);
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.cookieBtn:hover {
+  color: var(--blanco-calido);
+}
+
 .bottom {
   display: flex;
   align-items: center;
